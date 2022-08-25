@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.12)  25 AUG 2022 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.12)  25 AUG 2022 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1093,6 +1093,28 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ] [17
 
+] [18
+
+] [19
+
+] [20
+
+] [21
+
+] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+] [28
+
 ]
 \tf@nav=\write5
 \openout5 = `FørstePresentasjonpdf.nav'.
@@ -1105,11 +1127,11 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 (FørstePresentasjonpdf.aux) ) 
 Here is how much of TeX's memory you used:
- 24462 strings out of 478571
- 487086 string characters out of 2841968
+ 24516 strings out of 478571
+ 487890 string characters out of 2841968
  763294 words of memory out of 3000000
- 42071 multiletter control sequences out of 15000+600000
- 503777 words of font info for 58 fonts, out of 8000000 for 9000
+ 42090 multiletter control sequences out of 15000+600000
+ 503860 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1021b,651s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/gardi/AppData/Local/Programs/MiKTeX 2.9
@@ -1119,9 +1141,9 @@ Here is how much of TeX's memory you used:
 eX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/gardi/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/gardi/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb>
-Output written on FørstePresentasjonpdf.pdf (17 pages, 177670 bytes).
+Output written on FørstePresentasjonpdf.pdf (28 pages, 200095 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
  18523 words of extra memory for PDF output out of 20736 (max. 10000000)
 
