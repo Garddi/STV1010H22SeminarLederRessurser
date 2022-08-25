@@ -1,0 +1,75 @@
+\documentclass[12pt, a4paper, skip = 10pt plus1pt, indent = 40pt, 
+textwidth = 12cm]{report}
+
+\usepackage{geometry}
+\geometry{a4paper, 
+	total = {170mm, 257mm},
+	left = 25.4mm,
+	right = 25.4mm,
+	top = 25.4mm, 
+	bottom = 25.4mm
+}
+\setlength{\parskip}{12pt}
+\usepackage[font = small, labelfont = it]{caption}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{hyperref}
+\usepackage[ukenglish]{babel}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+
+\begin{document}
+		\begin{tabular}{ |p{2cm}|p{2.8cm}||p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}| }
+		\hline
+		Gruppe & Navn & \multicolumn{8}{|c|}{Øvelses oppgaver} \\
+		\hline
+		Nr &  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+		\hline
+		5 & Jan H. R. & G & IG & G & G & G & G & G & IG\\
+		\hline
+		5 & Kristian S. & IG-G & IG & G & G & IG & G & G & IG\\
+		\hline
+		5 & Sofie N. & G & G & G & G & G & G & G & G\\
+		\hline
+		5 & Karoline R. & G & G & IG & IG-G & G & G & G & IG\\
+		\hline 
+\end{tabular}
+
+\begin{tabular}{ |p{2cm}|p{2.8cm}||p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}| }
+	\hline
+	Gruppe & Navn & \multicolumn{8}{|c|}{Deltatt på Faglig Seminar} \\
+	\hline
+	Nr &  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+	\hline
+	5 & Jan H. R. & J & J & J & N-M & J & N & J & J\\
+	\hline
+	5 & Kristian S. & N-M & N & J & J & J & Syk & J & J\\
+	\hline
+	5 & Sofie N. & J & J & J & J & J & J & J & J\\
+	\hline
+	5 & Karoline R. & J & N & Syk & J & J & J & J & J\\
+	\hline 
+\end{tabular}
+
+\begin{table}
+	\caption{Kvalifiseringsoppgave}
+	\begin{tabular}{
+			|p{2cm}|p{2.8cm}||p{2.5cm}| }
+		\hline
+		Gruppe & Navn & Bestått \\
+		\hline
+		5 & Jan H. R. & G \\
+		\hline
+		5 & Kristian S. & G \\
+		\hline
+		5 & Sofie N. & G \\
+		\hline
+		5 & Karoline R. & G \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\end{document}
+
+

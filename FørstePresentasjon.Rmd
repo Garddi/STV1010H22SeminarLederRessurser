@@ -1,0 +1,155 @@
+---
+title: "Velkommen til Studentlivet!"
+author: "Gard Olav Dietrichson"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output:
+  revealjs::revealjs_presentation:
+    css: custom_style.css
+    highlight: breezedark
+    center: true
+    code_folding: show
+    transition: convex
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: true
+css: custom_style.css
+---
+
+## Plan for i dag! 
+
+- Bli Kjent
+  - Icebreaking
+- Hva består livet av student som?
+- Studieråd
+  - Former for undervisning
+  - Hvordan deltar man på forelesninger
+  - Hva gjør man i seminarer?
+- Pensum
+  - Hvordan lese pensum
+  - Hvordan lese forskningsartikler
+  - Tips til hvordan lese og ta notater
+- Kollokvier
+
+## Bli Kjent SETT INN KOSELIG BILDE AV FOLK SOM BLIR KJENT
+
+## Hvem er jeg?
+
+- Gard (26)
+- Fra Kolbotn, Akershus
+- Master i Statsvitenskap
+  - Skrevet om kvinners representasjon i MMR systemer, og bruk av kjønnskvoter
+- Henger igjen for å søke på PhD i statsvitenskap
+- Faglige Interesser:
+  - Kvantitativ metode
+  - Political Data Science
+  - Kvinnelig representasjon
+    - Deskriptiv og substansiell
+  - Valgsystemer
+    - Særlig MMR
+  - Kvantitativ tekstanalyse
+  
+## Hvem er Jeg?
+
+- Faglige Interesser forts:
+  - Nasjonal politikk i:
+    - Japan
+    - Sør-Korea
+    - Taiwan
+    - Israel
+- Fritiden min bruker jeg på
+  - Styrkeløfting (når jeg ikke er overarbeidet med Master)
+  - Gaming
+
+## Men hvem er dere? Morsomt bilde!!!
+
+## Icebreakers || BILDE AV EN ISBRYTER
+
+- css: custom_style.css
+
+
+## Bli Kjent!
+
+- Gå sammen med sidepersonen 
+- Forbered dere på å introdusere sidepersonen til resten av gruppa
+- Dette skal være med:
+  - Navn
+  - Alder
+  - Hvor de er fra
+  - Hvorfor valgte de statsvitenskap?
+  - Favoritt tv-serie og/eller favoritt album
+  
+## Nå over til livet som student
+
+BILDE AV TOM LOMMEBOK
+
+## Hva består livet som student av?
+
+- Hva forventer dere er annerledes?
+- Diskuter i små grupper
+
+## Som Student
+
+- Er du din egen sjef og studiekoordinator
+  - Du er ansvarlig for timeplanen
+  - Du er ansvarlig for å være til stedet i tide
+  - Du er ansvarlig for å være forberedt til eksamen
+- Du har helt frihet for å organisere
+- Men husk at frihet betyr ansvar
+
+## Noen generelle råd
+
+- Benytt deg av alt tilbud som du kan
+  - Prioriter undervisning over alt
+- Strukturer arbeidsdagen din
+  - Prøv å være til stedet samme tid hver dag
+  - Jeg brukte ikke en eneste helg på universitetet de første to årene
+  - Tenk at det er en arbeidsdag
+- Bruk mye tid på Campus!
+
+## Undervisningsformer 
+
+- Generelt sett blir dere kjent med to typer undervisning
+- Forelesninger
+- Seminarer
+
+## Forelesninger
+
+- Forelesningene holdes av vitenskapelig ansatte
+  - Emne-ansvarlig; Professorer, Førsteamanuensiser, Postdoktorer, PhD-stipendiater, og en og annen Universitetslektorer
+- Formålet med forelesningene er å strukturere og kontekstualisere pensum
+  - Men de hjelper også studentene til å finne ut av hva som bør vektlegges i pensum
+- Forelesninger gir rask tilgang til nytt materiale
+  - Ting som, konsepter, teorier, begrep og metoder forklares ofte
+  
+## Forelesninger
+
+- Forelesningene kan variere voldsomt i henhold til digitale hjelpemidler
+  - Disse midlene lastes ofte opp på nettsidene
+    - Bruk dem aktivt i lesingen deres
+    
+## Hvordan bør du delta?
+
+- Anbefalingen min er å delta i alle
+- Når du er til stede, *vær til stede*
+- Gjør alt mulig for å sikre at du er 100% klar til å følge med
+- Vær kritisk til det du hører
+  - Bruk pausene eller tiden etter til å stille spørsmål
+
+## Notater
+
+- Ta notater
+  - Hvordan dette gjøres er vel mer en kunst enn en vitenskap
+  - Jobb med å finne din metode for notatføring som gir mest utbytte
+  - Husk at notater føres ikke nødvendigvis for at du skal lese dem i fremtiden
+  - *ikke* skriv ned alt foreleser sier...
+- Sjekk gjerne heftet som Elin har lagt ut for mer detaljerte råd
+
+
+
+
+
+
+
+  
+
