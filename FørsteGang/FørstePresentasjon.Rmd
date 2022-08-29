@@ -16,6 +16,11 @@ output:
 css: custom_style.css
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
 ## Plan for i dag! 
 
 - Bli Kjent
@@ -31,7 +36,11 @@ css: custom_style.css
   - Tips til hvordan lese og ta notater
 - Kollokvier
 
-## Bli Kjent SETT INN KOSELIG BILDE AV FOLK SOM BLIR KJENT
+## Bli Kjent
+
+```{r, echo=FALSE}
+knitr::include_graphics("FørstePresImg/meetpeople.jpg")
+```
 
 ## Hvem er jeg?
 
@@ -57,16 +66,21 @@ css: custom_style.css
     - Sør-Korea
     - Taiwan
     - Israel
+
+## Hvem er Jeg?
+
+- Bodde i Japan i et halvt år
+  - Anbefaler alle å dra på utveksling
 - Fritiden min bruker jeg på
   - Styrkeløfting (når jeg ikke er overarbeidet med Master)
   - Gaming
   - Matlaging
+- Favoritt serie: Revolutionary Girl Utena
+- Favoritt album: A Night at the Opera
 
-## Men hvem er dere? Morsomt bilde!!!
+## Men hvem er dere?
 
-## Icebreakers || BILDE AV EN ISBRYTER
-
-- css: custom_style.css
+## <font color="white">\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Icebreaker</font> {data-background-image="FørstePresImg/andreybaton-icebreaker80001-0058.gif"}
 
 
 ## Bli Kjent!
@@ -80,14 +94,20 @@ css: custom_style.css
   - Hvorfor valgte de statsvitenskap?
   - Favoritt tv-serie og/eller favoritt album
   
-## Nå over til livet som student
+## Nå over til livet som student {data-background-image="FørstePresImg/emptywallet.jpg"}
 
-BILDE AV TOM LOMMEBOK
 
 ## Hva består livet som student av?
 
 - Hva forventer dere er annerledes?
 - Diskuter i små grupper
+
+## Først, litt småpirk
+
+- Student | Ikke elev
+- Universitet | Ikke Skole
+- Virker veldig smålig (og det er det også), men skillet er viktig å holde i tankene når du ser forskjeller mellom denne institusjonen og tidligere erfaringer. 
+- Dette universitetet er også litt særegent
 
 ## Som Student
 
@@ -113,6 +133,7 @@ BILDE AV TOM LOMMEBOK
 - Generelt sett blir dere kjent med to typer undervisning
 - Forelesninger
 - Seminarer
+- Undervisning gjøres av et vidt spektrum av ansatte på UiO
 
 ## Forelesninger
 
@@ -128,6 +149,8 @@ BILDE AV TOM LOMMEBOK
 - Forelesningene kan variere voldsomt i henhold til digitale hjelpemidler
   - Disse midlene lastes ofte opp på nettsidene
     - Bruk dem aktivt i lesingen deres
+- Husk også at de som underviser er ikke lærere
+  - Stor sjanse for at dere får lære om dette personlig
     
 ## Hvordan bør du delta?
 
@@ -162,9 +185,11 @@ BILDE AV TOM LOMMEBOK
 - Seminarene er aktive læringsarenaer, der du kan lære av medstudenter og av seminarleder
 - Fordrer selvfølgelig deltakelse, desto færre som deltar, desto mindre utbytte
 
-## Pensum
+## Pensum 
 
-- [BILDE AV TUNGE BØKER ELLER EN KJEDET STUDENT]
+```{r, echo=FALSE}
+knitr::include_graphics("FørstePresImg/syllabusmeme.png")
+```
 
 ## Pensum
 
@@ -194,6 +219,16 @@ BILDE AV TOM LOMMEBOK
   - Lesing til en oppgave
     - Lettere, da vet du nok hva du leter etter
 
+## Faglige Artikler
+
+- Innledning - Rettferdiggjøring, kontekstualisering, literatur gjennomgang, Forskningsspørsmålet
+- Teori - Teoretisk rammeverk, noe som forklarer verden, og setter forventninger
+- Metode - Hvordan svare på spørsmålet, gjennom teorien
+- Analyse - Resultatene av metoden
+- Diskusjon - Hva betyr resultatene?
+- Konklusjon - Det du skal ta med deg
+- **Det du skal hente ut av oppgaven varierer med emne**
+
 ## Notater
 
 - Ta noen form for notater
@@ -203,7 +238,10 @@ BILDE AV TOM LOMMEBOK
 
 ## Til sist: Kollokvier
 
-- [STJEL ET BILDE FRA COMMUNITY HER]
+```{r, echo=FALSE}
+knitr::include_graphics("FørstePresImg/community.jpg")
+```
+
 
 ## Kollokvier 
 
@@ -219,7 +257,10 @@ BILDE AV TOM LOMMEBOK
 ## Avslutningsvis
 
 - Har dere noen flere spørsmål rundt det vi har snakket om?
-- [NOE MORSOMT BILDE]
+
+```{r, echo=FALSE}
+knitr::include_graphics("FørstePresImg/questiongif.gif")
+```
 
 ## Dette var alt for i dag
 

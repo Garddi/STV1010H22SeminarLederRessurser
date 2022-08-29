@@ -58,7 +58,7 @@ output:
 
 ## Men hvem er dere? Morsomt bilde!!!
 
-## Icebreakers || BILDE AV EN ISBRYTER
+## Icebreakers {data-background-image="FørstePresImg/andreybaton-icebreaker80001-0058.gif"}
 
 - css: custom_style.css
 

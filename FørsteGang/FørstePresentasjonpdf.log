@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.12)  25 AUG 2022 19:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.12)  27 AUG 2022 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,7 +1128,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (FørstePresentasjonpdf.aux) ) 
 Here is how much of TeX's memory you used:
  24516 strings out of 478571
- 487890 string characters out of 2841968
+ 487869 string characters out of 2841968
  763294 words of memory out of 3000000
  42090 multiletter control sequences out of 15000+600000
  503860 words of font info for 59 fonts, out of 8000000 for 9000
@@ -1141,7 +1141,7 @@ Here is how much of TeX's memory you used:
 eX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/gardi/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/gardi/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb>
-Output written on FørstePresentasjonpdf.pdf (28 pages, 200095 bytes).
+Output written on FørstePresentasjonpdf.pdf (28 pages, 199868 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)
