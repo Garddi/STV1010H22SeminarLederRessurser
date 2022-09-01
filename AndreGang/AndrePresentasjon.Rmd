@@ -1,0 +1,67 @@
+---
+title: "Første Faglige Seminar"
+author: "Gard Olav Dietrichson"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output:
+  revealjs::revealjs_presentation:
+    css: custom_style.css
+    highlight: breezedark
+    center: true
+    code_folding: show
+    transition: convex
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: true
+css: custom_style.css
+---
+
+## Velkommen igjen!
+
+## Plan for i dag
+
+- Bli *enda mer* kjent
+- Seminaropplegget fremover
+  - Obligatoriske Krav
+  - Kvalifiseringsoppgaver
+  - Forventninger
+- Nyttige Ressurser
+- Gruppediskusjon
+
+
+## Bli *enda mer* kjent
+
+- For de som ikke var med sist
+- Jeg er Gard (26)
+- Master i Statsvitenskap
+- Faglig interesse for
+  - Kvantitativ analyse
+  - Political Data science
+  - Kvinnelig Representasjon
+  
+## Forts. 
+
+- Kvantitativ Tekstanalyse
+- Valgsystemer
+- Nasjonal Politikk i:
+  - Japan
+  - Taiwan
+  - Sør-Korea
+  - Israel
+- Liker gaming, styrkeløfting og matlaging
+  - Favoritt serie er Revolutionary Girl Utena
+  - Favoritt album: A Night at the Opera av Queen
+
+## Nå er det på tide med nok en klein icebreaker/bli kjent aktivitet
+
+
+## Nå over til det faglige [BILDE AV NOE HER]
+
+## Formålet med disse seminarene
+
+- Supplerer forelesningene
+- Fokuset er stoffet, og læring av stoffet
+- En lav-terskel arena for spørsmål
+  - Det finnes ikke dumme spørsmål
+- Mulighet for å lære av hverandre
+  
