@@ -1,21 +1,13 @@
 ---
-title: "Første Faglige Seminar"
+title: "Andre Presentasjon"
 author: "Gard Olav Dietrichson"
 date: '`r format(Sys.time(), "%d-%m-%Y")`'
-output:
-  revealjs::revealjs_presentation:
-    css: custom_style.css
-    highlight: breezedark
-    center: true
-    code_folding: show
-    transition: convex
-    self_contained: false
-    reveal_plugins: ["chalkboard", "notes"]
-    reveal_options:
-      slideNumber: true
-css: custom_style.css
+output: 
+  beamer_presentation:
+    theme: "AnnArbor"
+    colortheme: "seahorse"
+    fonttheme: "serif"
 ---
-
 ## Velkommen igjen!
 
 ## Plan for i dag

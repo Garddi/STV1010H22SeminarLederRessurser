@@ -71,11 +71,11 @@ pre {
 }
 
 body:after {
-  content: url(AndrepresImg/UiO.PNG);
+  content: url(AndrepresImg/UiOsmall.PNG);
   position: fixed;
   bottom: 3.5em;
   left: 3.5em;
-  box-shadow: 5px 5px 10px #000; }
+  box-shadow: 5px 5px 10px #000;}
 
 h2.author {
   text-decoration: none;
