@@ -59,10 +59,19 @@ css: custom_style.css
   - Favoritt serie er Revolutionary Girl Utena
   - Favoritt album: A Night at the Opera av Queen
 
+
 ## Nå er det på tide med nok en klein icebreaker/bli kjent aktivitet
 
+## Dagens lagaktivitet
 
-## Nå over til det faglige [BILDE AV NOE HER]
+- I grupper, gjør dere klar til å presentere laget deres
+- Lag et lagnavn basert på fellesinteresse (gjerne med en morsom tvist)
+- Presenter lagets gjennomsnittsalder
+- Hva er den lengste og den korteste avstanden mellom to medlemmer i gruppa?
+- Hvor mange år med utdanning har dere til sammen?
+
+## <font color ="black"> Nå over til det faglige </font> {data-background-image="AndrepresImg/stortinget.jpg"}
+
 
 ## Formålet med disse seminarene
 
@@ -83,7 +92,7 @@ css: custom_style.css
 ## Om Kvalifiseringsoppgavene
 
 - 8 oppgaver fremover nå
-- Fristen er to virkedager før seminarate
+- Fristen er to virkedager før seminarene
   - 48 timer før seminaret uten helg regnet med
 - Leveres under oppgave mappen på Canvas
   - Oppgaven blir tilgjengelig etter seminaret
@@ -100,6 +109,14 @@ css: custom_style.css
 - Det kommer også en lengre kvalifiseringsoppgave på slutten
   - Mer info om det kommer senere
   
+## Pirkegreier angående kvalifiseringsoppgavene
+
+- Hei jeg heter Gard og elsker Computer Modern
+- <p style="font-family:'Times New Roman'"> Hei jeg heter Gard og liker Times New Roman </p>
+- <p style="font-family:'Calibri'"> Hei jeg heter Gard og hater Calibri </p>
+- <p style="font-family:'Arial'"> Hei jeg heter Gard og hater Arial </p>
+
+
 ## Formelle krav
 
 - Det kreves at dere får 4 av 8 oppgaver godkjent
@@ -136,11 +153,17 @@ Prøv å ikke plag SV-info med mindre det trengs. Send bare e-post til dem hvis 
   
 ## Forventninger
 
-- Hva jeg forventer av dere
+- Hva jeg forventer av dere 
+<br> <br>
 - Si ifra når dere ikke kommer
+<br> <br>
 - Møt forberedt
+<br> <br>
 - Lever oppgavene innen tid
+<br> <br>
 - Vær aktive i diskusjoner
+
+## Hva forventer dere av hverandre?
 
 ## Hvem å Kontakte?
 
@@ -169,6 +192,19 @@ Prøv å ikke plag SV-info med mindre det trengs. Send bare e-post til dem hvis 
 - Formatet for indeling av grupper som skal diskutere vil variere
 - Vi prøver å ta en oppsummerende samtale på slutten av hver time
 - Jeg skal også prøve å være tilgjengelig mellom (og litt etter) timene, hvis dere har flere spørsmål.
+
+## Kort om Ressurser
+::: incremental
+- Kildeføring
+  - sokogskriv.no
+- Pensum
+  - Leganto på emnesiden: <font size="+2"> https://www.uio.no/studier/emner/sv/statsvitenskap/STV1010/h22/index.html </font>
+- Generell litteratur kunnskap
+  - Biblioteket
+- Og selvfølgelig:
+  - Ansatte
+  - Hverandre
+:::
 
 ## Gruppediskusjon
 
