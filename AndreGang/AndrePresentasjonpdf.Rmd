@@ -88,7 +88,7 @@ output:
   - 48 timer før seminaret uten helg regnet med
 - Leveres under oppgave mappen på Canvas
   - Oppgaven blir tilgjengelig etter seminaret
-- Det kommer også en lengre 800 ords kvalifiseringsoppvae
+- Det kommer også en lengre 800 ords kvalifiseringsoppgave
 
 ## Om Kvalifiseringsoppgavene
 
@@ -186,7 +186,7 @@ Prøv å ikke plag SV-info med mindre det trengs. Send bare e-post til dem hvis 
 - Jeg skal også prøve å være tilgjengelig mellom (og litt etter) timene, hvis dere har flere spørsmål.
 
 ## Kort om Ressurser
-::: incremental
+
 - Kildeføring
   - sokogskriv.no
 - Pensum
@@ -196,14 +196,14 @@ Prøv å ikke plag SV-info med mindre det trengs. Send bare e-post til dem hvis 
 - Og selvfølgelig:
   - Ansatte
   - Hverandre
-:::
+
 
 ## Gruppediskusjon
 
 - I grupper, diskuter de følgende spørsmålene
 1. Hvorfor har du valgt å studere statsvitenskap? Hva motiverte fagvalget ditt?
 2. Er du mest interessert i politikk internt i land eller internasjonale relasjoner (mellomland)? Eller virker begge deler like interessant?
-3. Hva er det 21. århundres mest “brennbare spørsmål” som statsvitere burde utforske, etter ditt syn? Tenker du at de primært handler om politikk på nasjonalt ellerinternasjonalt nivå? Eller begge deler?
+3. Hva er det 21. århundres mest “brennbare spørsmål” som statsvitere burde utforske, etter ditt syn? Tenker du at de primært handler om politikk på nasjonalt eller internasjonalt nivå? Eller begge deler?
 
 ## Første Kvalifiseringsoppgave
 
