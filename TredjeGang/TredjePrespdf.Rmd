@@ -33,11 +33,11 @@ Med valgdeltakelse menes andel av velgerne som avgir stemme ved valg. Du skal ku
 
 ## Generell feedback 
 
--Det er skummelt hvor mye av Malnes jeg kan lese i tekstene deres
-
--Jeg har lagt lista for å få godkjent litt lavt denne gangen.
-
--Jeg vil gjerne at dere ikke bruker tid på å gjenta spørsmålet
+Det er skummelt hvor mye av Malnes jeg kan lese i tekstene deres
+<br> <br>
+Jeg har lagt lista for å få godkjent litt lavt denne gangen.
+<br> <br>
+Jeg vil gjerne at dere ikke bruker tid på å gjenta spørsmålet
 
 ## Generell feedback
 
@@ -101,6 +101,36 @@ knitr::include_graphics("presImg/Deduction-induction-and-abduction.jpg")
 <hr>
 - James Bond kan spille poker
 
+## Litt mer om abduksjon, siden det er litt vanskelig
+
+- "Slutning til beste mulige forklaring"
+- Bygger egentlig på en haug med antakelser
+- Merk at konklusjonen i en abduktiv slutning ikke er gitt å være sann
+  - Men er (forhåpentligvis) mest sannsynlig
+
+## Litt mer om abduksjon, siden det er litt vanskelig
+```{r, echo=FALSE}
+knitr::include_graphics("presImg/itcrowd.jpg")
+```
+
+## Litt mer om abduksjon, siden det er litt vanskelig
+
+- Formelt sett:
+<br> <br>
+- En vanlig person ringer om et IT problem
+- De fleste vanlige personer er ikke gode med IT
+- De fleste personer gjør lite forsøk på å fikse ting selv
+- Derfor:
+  - Vanlige personer ringer ofte om ting som er lette å løse
+- Mye kan løses ved å skru PC'en av og på
+<hr>
+- Løsningen er å skru PC'en av og på
+
+## Åpen spørretid
+
+- Har dere noen spørsmål angående pensum?
+- Noe relatert til en forelesning?
+
 ## Gruppediskusjon
 
 All forskning i statsvitenskap stiller spørsmål om den sosiale verden, men det betyr ikke at alle forskere har samme tilnærming til forskning. Forskere har ulik forståelse av hva den sosiale virkeligheten er, hva vi kan vite om den og hvordan vi kan eller bør studere den. For å forstå andres forskning og planlegge vår egen, må vi kjenne til noen nøkkelbegreper og tilnærminger som samfunnsforskning bygger på.
@@ -128,3 +158,9 @@ Jobb i par/gruppe for å kople begrepene (termene) i notatet med definisjonene (
 1. Hvilket og hva slags type forskningsspørsmål er det som stilles i denne studien? Bruk Halperin og Heath’s klassifisering når du svarer (deskriptivt spørsmål, årsakspørsmål, etc.).
 2. Hvordan er spørsmålet avgrenset teoretisk/empirisk for å bli «forskbart»?
 3. Beskriv så helt kort hva som er analyseenhet(er) og hva som er de sentrale variablene i denne studien.
+
+## Til neste gang!
+
+- Ta med godt humør :) 
+- Husk å levere i tide
+- Takk for i dag!!
