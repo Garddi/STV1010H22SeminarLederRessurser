@@ -71,7 +71,7 @@ pre {
 }
 
 body:after {
-  content: url(AndrepresImg/UiOsmall.PNG);
+  content: url(presImg/UiOsmall.PNG);
   position: fixed;
   bottom: 3.5em;
   left: 3.5em;
