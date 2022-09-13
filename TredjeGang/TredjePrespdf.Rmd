@@ -72,7 +72,7 @@ Jeg vil gjerne at dere ikke bruker tid på å gjenta spørsmålet
   
 ## Om slutninger
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_graphics("presImg/Deduction-induction-and-abduction.jpg")
 ```
 
