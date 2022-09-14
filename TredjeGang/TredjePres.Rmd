@@ -130,6 +130,13 @@ knitr::include_graphics("presImg/itcrowd.jpg")
 <hr>
 - Løsningen er å skru PC'en av og på
 
+## Avslutningsvis, enda en oppsummering av slutninger
+
+```{r, echo=FALSE, out.width="110%"}
+knitr::include_graphics("presImg/inferences.png")
+```
+
+
 ## Åpen spørretid
 
 - Har dere noen spørsmål angående pensum?

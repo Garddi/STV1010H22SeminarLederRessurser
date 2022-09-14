@@ -126,6 +126,12 @@ knitr::include_graphics("presImg/itcrowd.jpg")
 <hr>
 - Løsningen er å skru PC'en av og på
 
+## Avslutningsvis, enda en oppsummering av slutninger
+
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("presImg/inferences.png")
+```
+
 ## Åpen spørretid
 
 - Har dere noen spørsmål angående pensum?
@@ -150,6 +156,16 @@ Jobb i par/gruppe for å kople begrepene (termene) i notatet med definisjonene (
 
 1. Hvordan er ontologi og epistemologi forbundet?
 2. Hvordan vil en «positivist» og en «interpretivist» være uenige om ontologi? Hva med epistemologi?
+
+## Løsningsforslag for de som ser på dette senere
+
+- Ontologi er påstander som har med hva som faktisk eksisterer, og hva slags form de tingene har. Dette hører nødvendigvis sammen med epistemologi, siden hva som er gir selvfølgelig føringer på hva slags kunnskap vi kan ha og hvordan den ser ut. 
+
+## Løsningsforslag for de som ser på dette senere
+
+- Positivister og interpretivister vil ikke nødvendigvis være helt uenige om *hva* som finnes, men er nok forskjellige i henhold til hva slags form dette har, hvor det finnes og hvordan man kan finne kunnskap om det. 
+  - Både positivister og interpretivister vil vel si det finnes en sosial verden, men de er ikke nødvendigvis enige om denne verdenen eksisterer kun i samhandlinger mellom mennesker, og om den er "objektivt" konstruert. 
+- Epistemologisk er de nok uenige om hva slags kunnskap vi kan ha om denne verdenen. Interpretivister mener vi ikke kan ha noen objektiv kunnskap om verdenen, mens positivister mener vi kan, dette er forskjell i epistemologi.
 
 ## Neste Kvalifiseringsoppgave
 
