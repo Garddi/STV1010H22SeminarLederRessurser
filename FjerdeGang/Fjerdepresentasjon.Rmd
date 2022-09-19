@@ -1,0 +1,62 @@
+---
+title: "Tredje Faglige Seminar"
+author: "Gard Olav Dietrichson"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output:
+  revealjs::revealjs_presentation:
+    css: custom_style.css
+    highlight: breezedark
+    center: true
+    code_folding: show
+    transition: convex
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: true
+css: custom_style.css
+---
+
+## Plan for i dag
+
+- Samme som alltid
+- Diskutere oppgaven 
+  - Jeg gir litt feedback/løsning
+- Åpen spørretid
+- Pause
+- Gruppediskusjon
+
+## Temaet for i dag er forskningsdesign i sin helhet.
+
+## Oppgaven
+
+- Les sammendraget av Mark Aspinwall
+<br> <br>
+1. Hvilket og hva slags type forskningsspørsmål er det som stilles i denne studien? Bruk Halperin og Heath’s klassifisering når du svarer (deskriptivt spørsmål, årsakspørsmål, etc.).
+2. Hvordan er spørsmålet avgrenset teoretisk/empirisk for å bli «forskbart»?
+3. Beskriv så helt kort hva som er analyseenhet(er) og hva som er de sentrale variablene i denne studien.
+
+## Generell tilbakemelding
+
+## Løsningsforslag
+
+- det er snakk om et årsakspørsmål
+  - "Hva forårsaker Regjeringers støtte til Europeisk integrasjon?"
+  - Målet er å teste alternative forklaringer
+- De zoomer inn på to spesifikke situasjoner, og ser kun på noen spørsmål
+  - Ministerrådet og 1997 Amsterdam Konferansen
+- Analyseenhetene er Regjeringer
+
+## Løsningsforslag
+
+- Det er egentlig fem variabler 
+- Men kun tre er listet i abstrakten 
+
+## Litt mer om forskningsspørsmål
+
+## Litt mer om analyseenheter
+
+## Litt mer om begrensninger av et design
+
+## Litt mer om variabler
+
+## 
