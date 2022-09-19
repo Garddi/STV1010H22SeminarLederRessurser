@@ -25,7 +25,11 @@ css: custom_style.css
 - Pause
 - Gruppediskusjon
 
-## Temaet for i dag er forskningsdesign i sin helhet.
+## Temaet for i dag er introduksjon til forskningsdesign
+
+- Forskningsdesign er den helhetlige strategien for å gjennomføre forskning
+- Boka identifiserer forskningsdesign som måten man går frem for å svare på forskninsspørsmålet
+- Fokuset i dag er denne første bite: forskningsspørsmålet
 
 ## Oppgaven
 
@@ -37,6 +41,14 @@ css: custom_style.css
 
 ## Generell tilbakemelding
 
+- Hva var bra?
+  - Nær sagt alle hadde gode tanker på spørsmål 1 og 2
+  - Eller kanskje, riktige tanker er best
+- Hva manglet ofte?
+  - Analyseenheter var det ikke mange som fikk til på en god måte
+- Hva kunne vært enda bedre?
+  - Bedre formuleringer på avgrensningen av studien
+
 ## Løsningsforslag
 
 - det er snakk om et årsakspørsmål
@@ -44,19 +56,90 @@ css: custom_style.css
   - Målet er å teste alternative forklaringer
 - De zoomer inn på to spesifikke situasjoner, og ser kun på noen spørsmål
   - Ministerrådet og 1997 Amsterdam Konferansen
+  - Men her er det viktig å presisere at avgrensningen gjøres via teori
 - Analyseenhetene er Regjeringer
 
 ## Løsningsforslag
 
 - Det er egentlig fem variabler 
 - Men kun tre er listet i abstrakten 
+  - Ideologisk - Venstre-høyre
+  - Erfaring i andre verdenskrig
+  - Finansielle overføringer fra EU
+- Viktig å presisere at disse er testet i begge tilfellene
 
 ## Litt mer om forskningsspørsmål
 
+- Spørsmålet som styrer forskningen din
+- Svaret er ditt bidrag til den bredere litteraturen
+- Kan ta flere former av spesifisitet
+  - Men denne spesifisiteten er også en del av forskningsdesignet
+
 ## Litt mer om analyseenheter
+
+- Analyseenheter er de tingene du studerer
+- Tilfellene hvis variabler du legger til grunn for din studie
+- Merk dere at opplegget søker å finne hva som forklarer *regjeringers* holdninger til europeisk integrering
+- Forholdet som en regjering har til EU, eller holdningen er her et aspekt *ved* regjeringen, det er ikke en enhet i seg selv
 
 ## Litt mer om begrensninger av et design
 
+- Gjøre noe "forskbart" er åpenbart litt vagt
+- De fleste hadde fått med seg at det handlet i en viss grad om empirisk begrensning
+  - Hvorfor er dette viktig?
+- Det jeg skulle gjerne sett litt mer av er tanker rundt hvordan teori kan brukes til å begrense
+  - Her kan vi bringe litt abduktive slutninger tilbake igjen
+  - Men teorien veileder også valg av empiri, tenk på hvordan variablene er valgt og hvordan dette er en begrensning
+
 ## Litt mer om variabler
 
-## 
+- Variabler er karakteristikker, verdier eller aspekter ved analyseenhetene
+- Beskriver enheten på en teoretisk relatert måte
+- Er ofte valgt ut fordi de er relatert til problemstilling og teori, ved at de demonstrerer essensielle aspekter
+  - Mer om dette kommer senere når vi ser på operasjonalisering
+
+## Oppfølgningsspørsmål
+
+- Er det problematisk å generalisere i dette forskningsdesignet?
+  - Hvorfor? Hvorfor ikke?
+
+## Åpen Spørretid
+
+- Noen som ønsker å ta opp noe?
+
+## Gruppediskusjon/aktivitet
+
+La oss si at du er interessert i hva som kan forklare omfanget av protestaktiviteter i verdens demokratier, og nærmere bestemt forholdet mellom ulikhet i inntekt (i befolkningen) og andel av befolkningen som regelmessig deltar i gatedemonstrasjoner (demonstrasjonstog) i ulike land. Etter å ha lest om temaet, forventer du å finne et positivt forhold mellom disse to variablene. Hvordan vil du uttrykt – formulert – en slik forventing («hypotese»)? Og hva ville du sagt om du forventet å finne et negativt forhold mellom inntektsulikhet og deltakelse i demonstrasjoner?
+
+## Bonusaktivitet
+
+- Hva er et spørsmål du er interessert i, innenfor statsvitenskap?
+<br> <br>
+- Velg et par i gruppen, og kom opp med hypoteser til den. 
+
+## I forkant av neste kvalifiseringsoppgave
+
+- Innledning - Rettferdiggjøring, kontekstualisering, literatur gjennomgang, Forskningsspørsmålet
+- Teori - Teoretisk rammeverk, noe som forklarer verden, og setter forventninger
+- Metode - Hvordan svare på spørsmålet, gjennom teorien
+- Analyse - Resultatene av metoden
+- Diskusjon - Hva betyr resultatene?
+- Konklusjon - Det du skal ta med deg
+
+## I forkant av neste kvalifiseringsoppgave
+
+- Viktigste her er å hente ut forskningsdesignet
+- Ikke nødvendigvis å lære seg alt om artikkelen
+  - Jeg tror ikke artikkelen kommer på eksamen
+
+## Neste kvalifiseringsoppgave
+
+Les artikkelen “How parties and interest groups protect their ties: The case of lobbying laws” av Michele Crepaz.
+<br> <br>
+Oppsummer først studiens forskningsspørsmål og sentrale forventning/hypotese. Redegjør deretter kort for hvordan Crepaz går frem for å svare utforske dette: Hva slags «forskningsdesign» bruker han?
+
+## Til neste gang
+
+- Ta med godt humør!
+- Lever i tide!!
+- Takk for i dag!!!
