@@ -66,6 +66,27 @@ output:
 - Svaret er ditt bidrag til den bredere litteraturen
 - Kan ta flere former av spesifisitet
   - Men denne spesifisiteten er også en del av forskningsdesignet
+  
+## Typer forskningsspørsmål
+
+- Deskriptive
+  - Ønsker å beskrive noe
+  - "Hvor stor andel av lovgivere i Norge er kvinner?"
+- Forklarende
+  - Ønsker å forklare hva som forårsaket noe
+  - "Hvorfor har noen land veldig lav andel av lovgivere som er kvinner?"
+- Prediktive
+  - Ønsker å forutse fremtidige hendelser
+  - "Kommer andelen lovgivere i Norge til å gå over 50%?"
+
+## Typer forskningsspørsmål
+
+- Preskriptive
+  - Hvordan kan man oppnå et visst mulig utfall?
+  - "Hvilke tiltak kan øke andelen lovgivere som er kvinner?"
+- Normative
+  - Hva er ønskelig, hva bør man gjøre?
+  - "Burde vi ha flere kvinnelige lovgivere?"
 
 ## Litt mer om analyseenheter
 
