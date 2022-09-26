@@ -30,7 +30,7 @@
   }
 
 body{
-  background: black;
+  background: radial-gradient(circle at 100%, #333, #333 50%, rgb(0, 0, 0) 75%, #333 75%);;
   color: #F0F0F0;
   font-family: "Times New Roman";
 }
