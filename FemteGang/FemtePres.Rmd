@@ -85,6 +85,8 @@ knitr::include_graphics("presImg/notthis.jpg")
 - Sentrale hypoteser: 
   - Eksistensen av sterkere parti-gruppe bånd leder til en "utvanning" av lovgivning som regulerer lobbyvirksomhet
   - Effekten vil være avhengig av om det politiske partiet har regjeringsmakt eller ikke.
+    - Men også om de kontrollerer viktige deler av beslutningsprosessen
+    - agendasetting til beslutningstakning
 <br> <br>
 - Forskningsdesignet:
   - Komparativt case studie, med 3 land
@@ -132,6 +134,13 @@ knitr::include_graphics("presImg/forventning.jpg")
 knitr::include_graphics("presImg/forventning2.jpg")
 ```
 
+## Til slutt, forskningsdesignet
+
+- Finnes i seksjon 4
+- Sier veldig tydelig hva det overordnede designet er
+- Hva slags metode som brukes
+- Komparativ Case-studie, tre land, prosess-sporing
+- Kvalitativt
 
 # Åpen spørretid
 
@@ -139,14 +148,19 @@ knitr::include_graphics("presImg/forventning2.jpg")
 
 # Gruppediskusjon
 
-- Vi tar noen forslag til Årsaksspørsmål i statsvitenskap
-
-- Hvis ikke, her er to forslag
-- Noter dem ned
+- Aller først, kom på noen årsaksspørsmål i statsvitenskap
 
 ## Gruppediskusjon
 
 Hva slags generelt «forskningsdesign» ville du valgt for å studere dette/disse spørsmålene? Mange enheter (N) eller få/ett (casestudie)? Data fra ett tidspunkt, eller over tid? Og hvorfor? Eller en miks? Hvilke muligheter og begrensninger har de ulike designalternativene?
+
+## Gitt ingen forslag
+
+Påvirker regimetype sjansen for om en stat involveres i krig og i tilfelle hvorfor? Ifølge teorien om «demokratisk fred» («democratic peace») tenderer demokratier til å unngå krig med hverandre. Mulige årsaker er at demokratiske institusjoner begrenser politiske lederes handlingsrom og/eller at borgerne i demokratier tenderer til å foretrekke fredelige løsninger på mellomstatlige konflikter.
+
+## Gitt ingen forslag
+
+Hva gjør at enkelte land har lave nivåer av kvinnelig representasjon? Noen mener at det har med valgssystemer å gjøre, mens andre sier at det har med lange tradisjoner med dominans av maskuline trekk i rekrutteringsløpet. 
 
 # Neste kvalifiseringsoppgave
 
