@@ -8,6 +8,10 @@ output:
     colortheme: "seahorse"
     fonttheme: "serif"
 ---
+## Som etterspurt, her er artikkel om prosessporing
+
+- https://doi.org/10.1080/09636412.2015.1036610
+
 ## Etter lang ventetid er den endelig her...
 
 ## Forbedret Presentasjon!

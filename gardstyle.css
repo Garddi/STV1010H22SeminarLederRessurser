@@ -30,7 +30,7 @@
   }
 
 body{
-  background: black;
+  background: radial-gradient(circle at 100%, #333, #333 50%, rgb(0, 0, 0) 75%, #333 75%);;
   color: #F0F0F0;
   font-family: "Times New Roman";
 }
@@ -70,6 +70,12 @@ pre {
   color: #F0F0F0;
 }
 
+body:after {
+  content: url(presImg/UiOsmall.PNG);
+  position: fixed;
+  bottom: 3.5em;
+  left: 3.5em;
+  box-shadow: 5px 5px 10px #000;}
 
 h2.author {
   text-decoration: none;
