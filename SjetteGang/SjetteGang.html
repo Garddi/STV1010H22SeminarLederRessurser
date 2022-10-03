@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Gard Olav Dietrichson" />
+  <title>Femte Faglige Seminar</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="SjetteGang_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="SjetteGang_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="gardstyle.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <script src="SjetteGang_files/header-attrs-2.16/header-attrs.js"></script>
+    <link href="SjetteGang_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link href="SjetteGang_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Femte Faglige Seminar</h1>
+    <h2 class="author">Gard Olav Dietrichson</h2>
+    <h3 class="date">03-10-2022</h3>
+</section>
+
+<section id="plan-for-i-dag" class="title-slide slide level1">
+<h1>Plan for i dag</h1>
+<ul>
+<li>Gjennomgå oppgaven
+<ul>
+<li>Tilbakemelding</li>
+<li>Løsningsforslag</li>
+<li>Litt nærmere om casestudier og caseutvalg</li>
+</ul></li>
+<li>Åpen spørretid</li>
+<li>Pause</li>
+<li>Gruppeaktivitet</li>
+</ul>
+</section>
+
+<section id="temaet-for-i-dag-er-casestudier"
+class="title-slide slide level1">
+<h1>Temaet for i dag er casestudier</h1>
+<ul>
+<li>En form for forskningsdesign</li>
+<li>Brukes som regel i en kvalitativ forståelse</li>
+<li>Kan ha mange ulike formål, teorigenererende, hypotesetestende,
+etc.</li>
+</ul>
+</section>
+
+<section id="dette-er-en-artikkel-som-ligger-nært-det-jeg-har-studert"
+class="title-slide slide level1">
+<h1>Dette er en artikkel som ligger nært det jeg har studert</h1>
+<ul>
+<li>Referensene er mange som går igjen i min egen Master</li>
+<li>Slik som Norris &amp; Lovenduski (1995), Hughes (2014), Phillips
+(1999), etc.</li>
+<li>Hvis noen er interessert i andre aspekter ved feltet, si gjerne i
+fra</li>
+</ul>
+</section>
+
+<section id="kvalifiseringsoppgaven" class="title-slide slide level1">
+<h1>Kvalifiseringsoppgaven</h1>
+<p>Les artikkelen “The complementarity advantage: parties,
+representativeness and newcomers’ access to power” av Karen Celis og
+Silvia Erzeel. Fokuser på artikkelens generelle forskningsdesign: hva er
+analyseenhet og hvordan har forskerne valgt ut «case»? Og hva slags data
+baserer de seg på? Bruk definisjonene fra forelesning: med «case» mener
+vi her ikke landene i studien selv om disse benevnes som «case». Et tips
+er å starte med å se på artikkelens hypoteser.</p>
+</section>
+
+<section>
+<section id="generell-tilbakemelding" class="title-slide slide level1">
+<h1>Generell tilbakemelding</h1>
+<ul>
+<li>Hva var bra?
+<ul>
+<li>Case var det mange som hadde fått med seg riktig på</li>
+<li>Analyseenhet var ofte nære</li>
+</ul></li>
+<li>Hva var dårlig?
+<ul>
+<li>Forholdet mellom analyseenhet og case var ikke alltid så godt
+presisgjort
+<ul>
+<li>Mange bommet på en, men traff (ish) på en annen</li>
+</ul></li>
+<li>De fleste var også nære på analyseenhet
+<ul>
+<li>Men det er litt mer generelt enn bare Belgiske partier vedkommende
+prøver å si noe om</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="generell-tilbakemelding-1" class="slide level2">
+<h2>Generell tilbakemelding</h2>
+<ul>
+<li>Hva kunne vært enda bedre?
+<ul>
+<li>Forbedre struktur på hvordan case er utvalgt</li>
+<li>Det er flere skritt involvert</li>
+<li>Bruke begrepene relatert til casestudier</li>
+<li>Hvorfor hver av de skrittene</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="løsningsforslag" class="title-slide slide level1">
+<h1>Løsningsforslag</h1>
+<ul>
+<li>Analyseenhet er politiske partier
+<ul>
+<li>Det er nettopp atferden til disse enheten som forfatterne ønsker å
+forklare</li>
+<li><em>Hvorfor</em> velger partier å rekruttere så mange
+minoritetskvinner? <br> <br></li>
+</ul></li>
+<li>Casene er mer spesifikt da, de fire partiene som studeres</li>
+<li>De spesifikke casene velges ut i et ledd med innsnevringer
+<ul>
+<li>Det er Belgiske partier</li>
+<li>Det er flemske Belgiske partier</li>
+<li>Det er akkurat disse partiene</li>
+<li>Belgia, Flandern, Fire partier</li>
+</ul></li>
+</ul>
+</section>
+<section id="løsningsforslag-1" class="slide level2">
+<h2>Løsningsforslag</h2>
+<ul>
+<li>Det er i stor grad snakk om typisk case utvalg <br> <br></li>
+<li>Dette gjelder i alle trinnene
+<ul>
+<li>Belgia er typisk, på grunn av ting som valgssystem</li>
+<li>Flandern er nyttig fordi det har en vanlig partifamilie</li>
+<li>Disse partiene representerer et bredt spektrum, og utgjør derfor
+<em>typiske</em> partier</li>
+</ul></li>
+</ul>
+</section>
+<section id="i-dette-tilfelle" class="slide level2">
+<h2>I dette tilfelle</h2>
+<ul>
+<li>Legg mye fokus på seksjon 6</li>
+<li>“Diskusjon” seksjonen
+<ul>
+<li>Passende, da det er her man ofte diskuterer hvor “gjeldende” funnene
+er for andre tilfeller</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="litt-nærmere-om-casestudier"
+class="title-slide slide level1">
+<h1>Litt nærmere om casestudier</h1>
+<ul>
+<li>Vi kan starte med litt begrepsavklaring
+<ul>
+<li>Artikkelen sier “the case of Belgium”</li>
+<li>Det er en vanlig forståelse av Case
+<ul>
+<li>og største kilden til ikke-godkjent i fjor <br> <br></li>
+</ul></li>
+<li>Case er <em>tilfelle</em> av <strong>analyseenheten</strong></li>
+</ul></li>
+<li>SETT INN BILDE AV ANALYSEENHETER NIVÅER HER</li>
+</ul>
+</section>
+<section id="litt-nærmere-om-casestudier-1" class="slide level2">
+<h2>Litt nærmere om casestudier</h2>
+<ul>
+<li>Casestudier er:
+<ul>
+<li>Den intensive analysen (enten kvalitativ eller kvantitativ) av en
+enkel eller smått antall av enheter, der forskerens mål er å forstå en
+større klasse av enheter.</li>
+<li>Seawright &amp; Gerring, 2008.</li>
+</ul></li>
+</ul>
+</section>
+<section id="litt-nærmere-om-casestudier-2" class="slide level2">
+<h2>Litt nærmere om casestudier</h2>
+<ul>
+<li>Vi har det som heter caseutvalgslogikk
+<ul>
+<li>casestudier gjør implisitt et valg om å studere enkelte
+tilfeller</li>
+<li>Men dette utvalget må ha en god grunn, det må foreligge en god årsak
+til å se på akkurat <em>disse</em> tilfellene</li>
+</ul></li>
+<li>Her kommer hovedtypene inn</li>
+</ul>
+</section>
+<section id="litt-nærmere-om-casestudier-3" class="slide level2">
+<h2>Litt nærmere om casestudier</h2>
+<ul>
+<li>Typisk</li>
+<li>Mangfoldig (diverse)</li>
+<li>Ekstreme</li>
+<li>Avvikende</li>
+<li>Innflytelsesrike</li>
+<li>MSSD</li>
+<li>MDSD</li>
+</ul>
+</section>
+<section id="finnes-også-andre-typologier" class="slide level2">
+<h2>Finnes også andre typologier</h2>
+<ul>
+<li>Crucial
+<ul>
+<li>Most likely</li>
+<li>Least likely</li>
+</ul></li>
+<li>Deviant</li>
+</ul>
+</section>
+<section id="typisk" class="slide level2">
+<h2>Typisk</h2>
+<ul>
+<li>Er et eksempel på et mer teorigenererende design</li>
+<li>Man finner frem tilfeller som man mener er “typiske” som avviker
+lite fra normale forhold</li>
+<li>Prøver å etablere en grunnleggende studie av hvorfor et fenomen
+skjer</li>
+<li>Når vi velger på variabler, kan dette hjelpe oss illustrere eller
+utforske mekanismer</li>
+<li>Mangfoldig casestudier faller litt under her
+<ul>
+<li>Demonstrere også at ikke alle bruker samme begrepsfamilie</li>
+</ul></li>
+</ul>
+</section>
+<section id="mssd-og-mdsd" class="slide level2">
+<h2>MSSD og MDSD</h2>
+<ul>
+<li>SETT INN ET BILDE HER SOM ILLUSTRERER SAMMENHENGEN, GJERNE TO</li>
+</ul>
+<p><img src="presImg/systemcases.png" width="534" /></p>
+</section></section>
+<section>
+<section id="casestudier-og-generalisering"
+class="title-slide slide level1">
+<h1>Casestudier og generalisering</h1>
+<ul>
+<li>Caselogikk legger føring på hva slags ekstern validitet du
+ønsker</li>
+<li>Motivasjonen for valg av en logikk er relatert hva du ønsker at
+casene dine skal bidra til den større verden med</li>
+</ul>
+</section>
+<section id="for-mer-om-casestudier" class="slide level2">
+<h2>For mer om casestudier</h2>
+<ul>
+<li>Les gjerne:
+<ul>
+<li>J. S. Levy (2008), “Case Studies: Types, Designs, and Logics of
+Inference”.</li>
+<li>Seawright &amp; Gerring (2008), “Case Selection Techniques in Case
+Study Research: A Menu of Qualitative and Quantitative Options”.</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="litt-ekstra-om-analyseenheter-på-nytt"
+class="title-slide slide level1">
+<h1>Litt ekstra om analyseenheter på nytt</h1>
+<ul>
+<li>Som vi har snakket om tidligere eksisterer analyseenheter på flere
+nivåer</li>
+<li>Siden case er tilfelle av analyseenheter er disse veldig
+sammenfallene</li>
+<li>Poenget med case er å belyse fakta og tilstander ved analyseenhetene
+<ul>
+<li>Teknisk sett er de observasjonene vi bruker i kvantitativ også
+“case”</li>
+<li>Men begrepet brukes sjeldent her</li>
+</ul></li>
+</ul>
+</section>
+<section id="demonstrasjon-av-nivåer" class="slide level2">
+<h2>Demonstrasjon av nivåer</h2>
+<ul>
+<li>Sett inn et bilde her av analyseenhet nivåer</li>
+</ul>
+</section></section>
+<section id="åpen-spørretid" class="title-slide slide level1">
+<h1>Åpen spørretid</h1>
+<ul>
+<li>Noe dere har møtt på den siste uken som dere lurer på?</li>
+</ul>
+</section>
+
+<section id="gruppediskusjon" class="title-slide slide level1">
+<h1>Gruppediskusjon</h1>
+<div>
+<ul>
+<li class="fragment"><p>Vi fortsetter med artikkelen til Celis og Erzeel
+<br> <br></p></li>
+<li class="fragment"><p>Fyll inn skrivet jeg deler ut</p></li>
+<li class="fragment"><p>Hva er:</p>
+<ul>
+<li class="fragment">Tema?</li>
+<li class="fragment">Forskningsspørsmål?
+<ul>
+<li class="fragment">Videre, hva er argumentet de fører om tidligere
+forskning?</li>
+</ul></li>
+<li class="fragment">Hvilke teorier/hypoteser foreslår de?</li>
+<li class="fragment">Hva er artikkelens hovedargument?</li>
+<li class="fragment">Hva sier de om sitt undersøkelsesopplegg?</li>
+</ul></li>
+</ul>
+</div>
+</section>
+
+<section id="neste-kvalifiseringsoppgave"
+class="title-slide slide level1">
+<h1>Neste kvalifiseringsoppgave</h1>
+<p>Les artikkelen ” The Islamic State’s Pattern of Sexual Violence:
+Ideology and Institutions, Policies and Practices” av Mara Redlich
+Revkin og Elisabeth Jean Wood. <br> <br> Velg ut to sentrale
+begreper/variabler i denne artikkelen og forklar hvordan de måles
+empirisk (dvs. er «operasjonalisert»).</p>
+</section>
+
+<section id="til-neste-gang" class="title-slide slide level1">
+<h1>Til neste gang!</h1>
+<ul>
+<li>Ta med godt humør!</li>
+<li>Lever i tide!!</li>
+<li>Takk for i dag!!!</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="SjetteGang_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="SjetteGang_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'zoom', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        chalkboard: {
+        },
+
+        keyboard: {
+          67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
+          66: function() { RevealChalkboard.toggleChalkboard() }, // toggle chalkboard when 'b' is pressed
+          46: function() { RevealChalkboard.clear() },    // clear chalkboard when 'DEL' is pressed
+           8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
+          68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'SjetteGang_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+          { src: 'SjetteGang_files/reveal.js-3.3.0.1/plugin/chalkboard/chalkboard.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
