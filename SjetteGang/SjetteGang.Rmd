@@ -127,6 +127,7 @@ Les artikkelen “The complementarity advantage: parties, representativeness and
 
 ## Finnes også andre typologier
 
+- Levy snakker om: 
 - Crucial
   - Most likely
   - Least likely
@@ -168,14 +169,22 @@ knitr::include_graphics("presImg/systemcases.png")
 # Litt ekstra om analyseenheter på nytt
 
 - Som vi har snakket om tidligere eksisterer analyseenheter på flere nivåer
-- Siden case er tilfelle av analyseenheter er disse veldig sammenfallene
+- Siden case er tilfelle av analyseenheter er disse veldig sammenfallende
 - Poenget med case er å belyse fakta og tilstander ved analyseenhetene
   - Teknisk sett er de observasjonene vi bruker i kvantitativ også "case" 
   - Men begrepet brukes sjeldent her
   
 ## Demonstrasjon av nivåer
 
-- Sett inn et bilde her av analyseenhet nivåer
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("presImg/levelsanalysis.png")
+```
+
+## Dagens oppgave illustrerer også noe viktig
+
+- Analyseenheter er partier
+- Men datagrunnlaget er parti medlemmer
+- Demonstrerer det at organisasjoner er også aggregater av individer (og mer enn det)
 
 # Åpen spørretid
 
