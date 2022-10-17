@@ -91,7 +91,7 @@ Hvilke kilder ville du brukt (hvilke aviser/nettsteder) og hvorfor?
   - Denne minstegrensen kan også variere (litt) med populasjonsstørrelse
 - Faren ved dette er at man risikerer kilder til utvalgsskjevheter 
   - Utvalget er ikke representativt 
-  - Et tilfelle med sterke bøyninger kan lede oss av veie da
+  - Et tilfelle som er sterkt avvikende kan gi oss skjeve resultater
 - Men dette er også bare et problem hvis vi behandler alle tilfellene likt
 - Hvis vi velger tilfeldig og deretter analyserer dem i henhold til sin kontekst kan vi fortsatt finne noe interessant
 
@@ -112,16 +112,28 @@ Hvilke kilder ville du brukt (hvilke aviser/nettsteder) og hvorfor?
   - Hva slags størrelse, lesertall? ansatte?
   - innflytelsesrik kan også være relatert til ideologien til mediumet 
 <br> <br>
-- Ikke veldig viktig i Norsk sammenheng, men lesertall er ikke alltid sammenhengende med direkte innlfytelse 
+- Ikke veldig viktig i Norsk sammenheng, men lesertall er ikke alltid sammenhengende med direkte innflytelse
 
 ## Litt nærmere om utvalg
 
 - For å sikre et representativt utvalg burde vi nok velge tilfeller som lar oss undersøke variasjonen i variabler som er **tenkt** til å ha en sammenheng med utfallet
 <br> <br>
 - Gode eksempler på det er: 
-  - Ideologi - hvis vi bare velger venstre side aviser, får vi ikke et godt innblikk i hva "sentrale medier" generelt mener
+  - Ideologi - hvis vi bare velger venstreside aviser, får vi ikke et godt innblikk i hva "sentrale medier" generelt mener
   - Regioner - Kan hende Viken-medier har en annen vinkling enn mer rurale medier
   
+## Litt nærmere om utvalg
+
+- Enhetene skal være **representative** av *sentrale* medier
+<br> <br>
+- Enhetene = spesifikke sentrale medier
+  - Representative hvis de er sentrale - Høyt lesertall f. eks.
+- Representative hvis de reflekterer: 
+  - Dimensjonene av Rurale og urbane aviser som finnes *sentrale* medier universet
+  -Dimensjonene av ideologiske bakgrunner som finnes i *sentrale* medier sitt univers
+- Det kan også være snakk om dimensjoner som ikke har blitt nevnt
+  - Tabloid versus fullformat?
+
 ## Litt mer om innholdsanalyse
 
 - Ikke en del av pensum
