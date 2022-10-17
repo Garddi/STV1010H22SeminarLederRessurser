@@ -1,0 +1,180 @@
+---
+title: "Sjuende Faglige Seminar"
+author: "Gard Olav Dietrichson"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output: 
+  beamer_presentation:
+    theme: "AnnArbor"
+    colortheme: "seahorse"
+    fonttheme: "serif"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plan for i dag
+
+- Gjennomgå oppgaven
+  - Tilbakemelding
+  - Løsningsforslag
+  - Litt nærmere om utvalg og innholdsanalyse
+- Åpen spørretid
+- Pause
+- Gruppeaktivitet
+
+## Temaet for i dag er utvalg
+
+- Det er ikke alltid gitt at vi kan studere hele universet av enheter
+- Vi er nødt til å basere oss på et mindre utvalg av enheter
+- Temaet for i dag er hvordan vi kan sikre oss at disse enhetene er *representative*
+  - Det vil si at aspektene vi studerer ved dem, er gyldige utover tilfellene vi studerer
+  - Ekstern validitet er nøkkel her
+
+## Kvalifiseringsoppgaven
+
+Se for deg at du ønsker å gjennomføre en innholdsanalyse av hvordan sentrale nasjonale medier i Norge fremstiller debatten om formueskatt. Studien er avgrenset til å dekke perioden fra 2013 til i dag, og radio og TV holdes utenom. Du har ikke ennå bestemt deg for om du vil gjennomføre en kvantitativ eller kvalitativ tekstanalyse, men er nødt til å basere deg på et utvalg av medier (færre en ti).
+<br><br>
+Hvilke kilder ville du brukt (hvilke aviser/nettsteder) og hvorfor?
+
+## Bonus diskusjon
+
+- Hva tror dere er formålet til denne artikkelen?
+- Hvordan ville dere analysert dette datagrunnlaget?
+- Hva er interessant med å se på sentrale mediers fremstilling av formueskatten?
+
+## Generell tilbakemelding
+
+- Hva var bra?
+  - De fleste har vært inne på å nevne noe som relateres til representativitet
+  - Gode refleksjoner rundt potensielle utvalgsskjevhet kilder 
+
+- Hva var dårlig?
+  - De litt svakere innleveringene har vært dårlige på å rette det de diskuterer direkte til problemer rundt representativitet
+  
+## Generell tilbakemelding
+
+- Hva kunne vært enda bedre?
+  - En mer systematisert diskusjon rundt nøyaktig hva som det utvelges fra, hva representativitet er, og hvorfor det kan være farlig å ikke ha målrettet utvalg på en utvalgsstørrelse som dette
+  - Ikke nødvendigvis det som ventes her, men som ville vært bra på en eksamen
+
+## Løsningsforslag
+
+- Her er det ikke en eksakt fasit
+- Vekt ligger heller på resonnement 
+<br> <br>
+- Men noen elementer er fortsatt viktig å ha med
+  - Representativitet 
+  - Hva slags variabler som velges på
+
+## Løsningsforslag
+
+- Det er mange muligheter kan ses på for å gjøre et utvalg
+  - Politisk ideologi
+  - Regional vinkling
+  - Størrelse
+<br> <br>
+- Hva som ligger i "sentrale medier" er også en del av nøkkelen
+  - En av de vanligste svarene har vært å tolke det som størrelse, og det er ikke galt det
+
+## Litt nærmere om utvalg
+
+- Når vi gjør studier kan vi sjeldent studere det hele universet/populasjon
+- Vi er nødt til å basere oss på et mindre antall enheter
+<br> <br>
+- Men det store spørsmålet er, hvordan kan vi sikre at de enhetene vi studerer, reflekterer aspektene ved hele populasjonen?
+  - Tilfeldig utvalg er en vanlig strategi her
+  - Men når vi bare kan se på 10 tilfeller, blir det litt manglende
+  
+## Litt nærmere om utvalg
+
+- Du trenger minst 20-30 tilfeller for å trekke statistisk signifikante slutninger om en populasjon
+  - Denne minstegrensen kan også variere (litt) med populasjonsstørrelse
+- Faren ved dette er at man risikerer kilder til utvalgsskjevheter 
+  - Utvalget er ikke representativt 
+  - Et tilfelle med sterke bøyninger kan lede oss av veie da
+- Men dette er også bare et problem hvis vi behandler alle tilfellene likt
+- Hvis vi velger tilfeldig og deretter analyserer dem i henhold til sin kontekst kan vi fortsatt finne noe interessant
+
+## Litt nærmere om utvalg
+
+- En bedre strategi i dette tilfellet er nok å være bevisst på kilder til skjevhet
+- Dette vil også variere i henhold til hva vi definerer som "sentrale medier"
+  - Har dette bare med størrelse å gjøre?
+- Men det har også med hva vi ønsker å si
+  - Spørsmålet er veldig vagt, men er vi ute etter å se hva som er felles for disse mediene, eller hva som er likt?
+- Uansett hva vi ønsker å sammenlikne på, burde vi nok sikre at kilder til potensielle forskjeller eller likheter er kontrollert for
+  - Derfor er det nok viktig å snakke om en del viktige variabler å kontrollere for
+
+## Litt nærmere om utvalg
+
+- "Sentrale medier" referer nok til de mest innflytelsesrike
+  - Størrelse er åpenbart en vurdering som spiller inn der
+  - Hva slags størrelse, lesertall? ansatte?
+  - innflytelsesrik kan også være relatert til ideologien til mediumet 
+<br> <br>
+- Ikke veldig viktig i Norsk sammenheng, men lesertall er ikke alltid sammenhengende med direkte innlfytelse 
+
+## Litt nærmere om utvalg
+
+- For å sikre et representativt utvalg burde vi nok velge tilfeller som lar oss undersøke variasjonen i variabler som er **tenkt** til å ha en sammenheng med utfallet
+<br> <br>
+- Gode eksempler på det er: 
+  - Ideologi - hvis vi bare velger venstre side aviser, får vi ikke et godt innblikk i hva "sentrale medier" generelt mener
+  - Regioner - Kan hende Viken-medier har en annen vinkling enn mer rurale medier
+  
+## Litt mer om innholdsanalyse
+
+- Ikke en del av pensum
+<br> <br>
+- Metoden for hvordan vi analyserer disse tekstene er verdt å tenke litt over
+- Hva er vi ute etter?
+  - Likheter versus forskjeller
+  
+## Hva ville dere gjort?
+
+- Ville dere gått for en kvalitativ eller kvantitativ analyse?
+
+## Litt mer om innholdsanalyse
+
+- De fleste som har sagt noe om det, lener seg mot kvalitativ analyse
+- På et bachelor nivå er det forståelig (og kanskje til og med best)
+<br> <br>
+- I denne sammenhengen kan nyttige analysestrategier være
+  - Ideanalyse - Forskjeller
+  - Diskursanalyse - Likheter
+
+## Litt mer om innholdsanalyse
+
+- Dette er **veldig** ikke pensum
+<br> <br>
+- Dataen kan også analyseres kvantitativt
+  - Ordtellinger - regresjon på antall tilfeller ord
+    - Poisson regresjon
+  - Sentimental analyse - Leksikon av ord som kan estimere vinklingen til en tekst
+  - Topic modelling - Maskinlæring 
+
+## Avslutningsvis
+
+- Er det noen flere spørsmål til oppgaven?
+
+## Åpen spørretid
+
+- Noe dere har møtt på den siste uken som dere lurer på?
+
+## Gruppediskusjon
+
+Du har bestemt deg for å studere utviklingen av klimapolitikken til to politiske partier, la oss si Arbeiderpartiet og Høyre, de siste ti årene (ca.). Hva slags skriftlige kilder (tekster) tenker du vil være relevante å bruke? Og hvilken nøyaktig tidsavgrensning ser du for deg? Søk gjerne opp mulige kilder og ta en titt om du vil/kan.
+
+## Neste kvalifiseringsoppgave
+
+Denne oppgaven handler intervju som datainnsamlingsmetode. Tenk deg at du skal studere norske interesseorganisasjoners (fagforeninger, næringsorganisasjoner, miljøorganisasjoner etc.) involvering i stortingsvalget 2021. Problemstillingen er i hvilken grad organisasjonene tok del i valgkampen og forsøkte å påvirke valget. Dere bestemmer dere for å intervjue relevante personer i et utvalg organisasjoner. Målet er å kunne sammenligne ulike organisasjoners svar etterpå, men også å få kunnskap om hva de enkelte organisasjonene har foretatt seg i noe detalj.
+
+## Neste kvalifiseringsoppgave
+
+Hvilken intervjutype (strukturert, semi-strukturert, ustrukturert) vil du si er best egnet for dette formålet? Og hvordan ville du teknisk sett gjennomført intervjuet? Begrunn svarene dine kort. Lag til slutt et forslag til åpningsspørsmål.
+
+## Til neste gang
+
+- Ta med godt humør!
+- Lever i tide!!
+- Takk for i dag!!!
