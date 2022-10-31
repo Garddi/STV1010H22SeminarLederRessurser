@@ -98,7 +98,7 @@ Hva slags type forskningsspørsmål kan deltakende observasjon brukes til å bel
 
 ## Litt mer om tykke beskrivelser 
 
-- Anbefaler å ta en titt på Clifford Geertz sin artikkel
+- Anbefaler å ta en titt på Clifford Geertz sitt essay
 ```{r, echo=FALSE}
 knitr::include_graphics("presImg/clifford.jpg")
 ```
@@ -120,7 +120,13 @@ Hva om en tredjeperson kommer inn, og gjør narr av den med rykninger, ved å he
   
 ## Litt mer om tykke beskrivelser
 
-*"Winks upon winks upon winks"*
+- Nøkkelen til en vitenskapelig tilnærming handler om å forstå hva tegn, uttrykk og handlinger reflekterer, hvordan de reflekterer og bygger opp kultur, eller andre ting man er interessert i
+- avdekke strukturene som former subjektene sine handlinger, og å konstruere et system av analyse som kan avdekke det som er unikt til strukturene vi analyserer, som vil stå ut i kontrast med andre forklaringer av oppførsel. 
+
+## Litt mer om tykke beskrivelser
+
+- *"Winks upon winks upon winks"*
+- *"It's turtles all the way down"*
 
 ## Litt om et kjent tiflelle av deltakende observasjon
 
