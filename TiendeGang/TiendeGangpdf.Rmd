@@ -151,6 +151,10 @@ knitr::include_graphics("presImg/festinger.jpg")
 - Hemmelig observasjon (litt problematisk)
 - Hemmeligheten gjorde forskningsbiten veldig vanskelig
 
+## Hva skjedde?
+
+- Dommedag kom åpenbart ikke...
+
 ## Men de virkelig store problemene
 
 - Festinger sitt team har blitt anklaget for å faktisk forårsake utfallet
