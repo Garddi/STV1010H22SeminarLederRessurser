@@ -240,8 +240,8 @@ Generelt forskningsspørsmål: Hvordan bestemmer avisjournalister i Norge hvilke
 
 ## Gruppediskusjon
 
--Lag en plan for en etnografisk studie av dette som inkluderer følgende aspekter:
-  - Hva slags og hvilket sted/miljø («site») skal studeres og hvorfor
+- Lag en plan for en etnografisk studie av dette som inkluderer følgende aspekter:
+  - Hva slags og hvilket sted/miljø («site») skal studeres og hvorfor 
   - Valg av informanter
   - Tilgang til stedet og «portvoktere»
   - Rollen til forskeren i felt og forholdet til informantene
