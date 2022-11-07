@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Elin har lagt ut noen eksempel oppgaver på Canvas, som gir dere en pekepinn på hvordan eksamensspørsmål kan se ut
 - Ut i fra disse, ser det litt ut som det ikke blir minuspoeng, men det vet nok Elin bedre
 
-- Vi har også bestemt at siste frist for 2. forsøk på kvalifiseringsoppgaven vil være 26. November, 23:59
+- Vi har også bestemt at siste frist for 2. forsøk på kvalifiseringsoppgaven vil være 25. November, 23:59
 
 ## Temaet for i dag er deltakende observasjon som metode
 

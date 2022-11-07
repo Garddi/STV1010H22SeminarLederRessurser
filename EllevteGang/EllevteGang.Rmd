@@ -1,0 +1,157 @@
+---
+title: "Tiende Faglige Seminar"
+author: "Gard Olav Dietrichson"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output:
+  revealjs::revealjs_presentation:
+    css: gardstyle.css
+    highlight: breezedark
+    center: true
+    code_folding: show
+    transition: zoom
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: true
+css: gardstyle.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Plan for i dag
+
+- Statusoppdatering
+- Noen flere råd
+- Spørsmål rundt oppgaven og gjennomførelsen
+- Pause
+- Hva kjennetekner en god oppgavebesvarelse i STV1010?
+  - Hva må med?
+  - Hva drar opp nivået?
+  - Hva kan dere bruke dem til?
+
+# Lengre kvalifiseringsoppgave
+
+- Håper alle har kommet godt i gang
+- Minner igjen om at rapporten skal ikke inkludere noen substansielle fund
+- Viktigste er den praktiske erfaringen dere får av å gjennomføre dette
+
+## La oss ta en liten oppsummeringsrunde
+
+Hvordan ligger dere an? 
+
+## Utfordringer
+
+- Hva har vært mest utfordrende så langt?
+- Har dere noen spørsmål rundt de utfordringene dere har møtt på?
+<br> <br>
+- Noen spørsmål dere har til nå?
+
+## Erfaringer
+
+- Hva har dere lært av prosessen så langt?
+
+## Videre tips
+
+- Selve rapporten skal hovedsakelig bestå av egne refleksjoner
+- Alt som du har erfart rundt planlegging er verdt å diskutere
+- Les gjerne oppgavebeskrivelsen for mer retningslinjer
+  - Blant annet spør den om "ville du gjort noe annerledes"
+
+## Generelle arbeidsflyt tips
+
+- Ikke prøv å gjøre alt på en dag
+- Arbeid på oppgaven er ikke bare å skrive ord
+- Start gjerne med nøkkelord notater etter intervjuene deres
+
+## Noen flere spørsmål?
+
+- Noe som helst som dere fortsatt sitter igjen med?
+
+# Hva kjennetegner en god oppgave?
+
+- Siste tiden bruker vi på å snakke om oppgavene dere har hatt
+- Litt mer helhetlig perspektiv på dem
+
+## Hva skal med i en besvarelse?
+
+- For det første, alle delene av spørsmålet skal besvares
+- Svare riktig (åpenbart)
+- Aktivt bruk av fagbegreper
+  - På en måte som viser forståelse
+  - Forankre besvarelsen i pensum
+- Holde seg til saken
+  - Vise prioriteringsevne
+- Struktur og språk
+
+## Hva skal med i en *eksamen* besvarelse?
+
+- Tenk at dette var eksamens oppgaver
+  - Ordgrensen er fortsatt litt relevant
+- Det som mangler, er litt drøfting
+  - Demonstrer kunnskap om et tema ved å kritisere det
+  - Men også ved å fremheve egenskaper
+  - Særlig i metode
+- Tenk på den siste oppgaven
+  - Hva gjør etnografi toppers?
+  - Hva er negativt med etnografi?
+
+## La oss ta en titt på noen eksempler
+
+- Alt+tab lets goooo
+
+## Om oppgavene generelt
+
+- Hva har vært vanskelig med oppgavene?
+  - Tematikken?
+  - Formuleringene?
+  - Valgte artikler?
+- Hvordan føler dere at dere har lært av oppgavene?
+- Hvordan har dere jobbet med oppgavene?
+
+## Ranger oppgavene etter vanskelighet
+
+1. Stortingsvalg og slutninger
+2. Forskningsspørsmål, avgrensninger, og analyseenheter, Aspinwall
+3. Crepaz, forventninger og hypoteser
+4. Celis og Erzeel, analyseenhet og caseutvalg
+5. Operasjonalisering, Revkin og Wood
+6. Innholdsanalyse, utvalg av medier
+7. Intervju som datainnsamlingsmetode
+8. Deltakende observasjon
+
+## Avslutningsvis om oppgavene
+
+- Er det noe rundt oppgavene dere fortsatt lurer på, eller føler dere ikke har fått mulighet til å si noe om?
+
+# Liten øvelse
+
+- Siteringspraksis
+- Burde dedikere litt ekstra tid til det
+
+## Hva skal siteres?
+
+- Fakta, figurer, ideer eller annen informasjon som ikke er allmennkunnskap
+- Ideer, ord, teorier, eller eksakt språk som en annen person bruker i en publikasjon. 
+  - Publikasjoner som bøker, artikler, kapitler i bøker, nettsider, teser, etc. 
+- En annen persons *eksakte* ord burde være i sitat og nøyaktig kildeført
+- MIT Libraries (2022). Citing sources: Overview. Accessed 6. November 2022, from: https://libguides.mit.edu/citing 
+
+## Hvordan sitere?
+
+- Vi gikk litt gjennom det forrige gang
+- Dere må gjøre dere kjent med stilene selv
+- Den beste måten å lære er å gjøre
+
+## Hvorfor sitere?
+
+- Viser at du kommuniserer med en større faglig litteratur
+- Gjør teksten litt mer "objektiv" 
+- Viser at forskning er kummulativ
+- Gir "bevis" på substansielle ting som du påstår 
+
+# Til neste gang!
+
+- Husk å levere datainnsamlingsoppgaven, den **må** bestås
+- Gjør dere klar for å dele litt mer av erfaringene som dere har fått her.
