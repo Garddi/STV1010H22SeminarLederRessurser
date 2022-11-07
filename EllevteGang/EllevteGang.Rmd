@@ -39,7 +39,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## La oss ta en liten oppsummeringsrunde
 
-Hvordan ligger dere an? 
+- Hvordan ligger dere an? 
+<br> <br> 
+- I grupper
+  - Snakk med hverandre om hvor dere ligger
+  - Gjør dere klar for å dele med hele gruppa hva som ser ut til å være "median" progresjon 
 
 ## Utfordringer
 
