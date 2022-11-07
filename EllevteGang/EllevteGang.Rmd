@@ -89,6 +89,26 @@ knitr::opts_chunk$set(echo = TRUE)
   - Vise prioriteringsevne
 - Struktur og språk
 
+## Svare riktig
+
+- De fleste oppgaver har noe som minner om en fasit
+- Her gjelder det å ha særlig kontroll over begrepene dere har lært
+- Aktivt bruk av fagbegreper kan hjelpe deg finne svaret
+- Men viser også forståelse for elementene
+
+## Holde seg til saken
+
+- Fristende å hoppe rundt
+- Bruk kun eksempler som er *relevante*
+- Prøv også å finne ut av hva som er viktigst
+
+## Struktur og språk
+
+- Ideelt sett skal ikke ha noe å si
+  - Men det har noe å si
+- Hjelper både deg og leser
+- Språk og fagbegreper
+
 ## Hva skal med i en *eksamen* besvarelse?
 
 - Tenk at dette var eksamens oppgaver
@@ -159,3 +179,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Husk å levere datainnsamlingsoppgaven, den **må** bestås
 - Gjør dere klar for å dele litt mer av erfaringene som dere har fått her.
+- Begynn også å tenke på ting dere vil at jeg skal ta opp på siste seminar
