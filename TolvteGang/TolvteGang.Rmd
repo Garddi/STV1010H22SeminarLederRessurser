@@ -94,7 +94,16 @@ knitr::opts_chunk$set(echo = TRUE)
 - Avklaringer:
   - Hva slags informasjon?
 <br> <br>
-- 
+- Inntak av informasjon om stortingsvalget kan skje både passivt og aktivt, hvordan vil du si du hovedsakelig fikk informasjon
+  - Merk: med aktiv menes at man selv søkte opp informasjon, passivt vil si at man fikk med seg ting uten å ha aktivt sett etter det
+  - Hva vil du beskrive som dine 3 viktigste kilder til både aktiv og passiv informasjon?
+
+## Hva ville jeg gjort?
+
+- Avslutning:
+  - hold det relevant, men litt lettere i henhold til eirindring
+<br> <br>
+- Hva er dine tanker rundt utfallet av stortingsvalget 2021?
 
 # Ting å reflektere over 
 
