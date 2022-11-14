@@ -48,6 +48,45 @@ knitr::opts_chunk$set(echo = TRUE)
   - Spørsmål og forskningstema sin sammenheng
   - Et par ice-breakers har landet på merkelige ender av skalaen 
 
+## Hva ville jeg gjort?
+
+- Som mange andre ville jeg delt opp spørsmålene i tre seksjoner, og sikret at alle seksjonene ga meg utfyllende svar på de områdene jeg var interessert i
+- Interesse, Deltakelse og Kilder
+
+## Hva ville jeg gjort?
+
+- Oppvarming, åpen men inviterende til å dele egne personlig interesser
+<br> <br>
+- Hvordan vil du beskrive din livssituasjon rundt stortingsvalget 2021?
+
+## Hva ville jeg gjort?
+
+- Interesse, mål:
+  - Hvor interesserte var de i stortingsvalget/generelt?
+<br> <br>
+- Hva var de viktigste kampsakene i stortingsvalget 2021 i din mening?
+  - Hvis ikke en personlig bedømmelse: Hva var viktig for deg personlig?
+- Hvordan påvirket din generelle interesse i politikk din interesse for stortingsvalget 2021?
+
+## Hva ville jeg gjort?
+
+- Deltakelse, mål:
+  - Er de interessert i å delta, og hvor mye deltar de
+- Avklaringer:
+  - Hva legger jeg i deltakelse?
+<br> <br>
+- Har du engasjert deg i individuelle aktiviteter, eller organisasjoner som prøver å påvirke politiske utfall under valgkampen? Hvorfor deltok du?
+  - Hvor ofte/hvor mange ganger?
+- Stemte du ved stortingsvalget, hvorfor/hvorfor ikke?
+  - Hvis ikke nevnt: Føler du at det er viktig å stemme generelt?
+  
+## Hva ville jeg gjort?
+
+- Kilder, mål:
+  - Hvor hentet de informasjon fra?
+- Avklaringer:
+  - Hva slags informasjon?
+
 ## Ting å reflektere over 
 
 - Hvis vi tenker på dette som et faktisk forskningsopplegg
