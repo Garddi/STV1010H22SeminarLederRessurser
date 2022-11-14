@@ -1,0 +1,104 @@
+---
+title: "Ellevte Faglige Seminar"
+author: "Gard Olav Dietrichson"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output: 
+  beamer_presentation:
+    theme: "AnnArbor"
+    colortheme: "seahorse"
+    fonttheme: "serif"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plan for i dag
+
+- Dele litt erfaringer og momenter rundt den lengre kvalifiseringsoppgaven
+- Kodeøvelse
+
+## Nå som alle har gått gjennom den lengre kvalifiseringsoppgaven
+
+## Erfaringer
+
+- Hva var den vanskeligste delen av prosessen?
+
+## Erfaringer
+
+- Hva har vært det viktigste dere lærte av prosessen?
+
+## Erfaringer
+
+- Hva syntes dere om oppgaven?
+  - Tidspunktet
+  - Vanskelighetsgrad
+  - Nytte
+
+## Tilbakemelding
+
+- Hva var bra?
+  - Mange veldig gode refleksjoner rundt det å få åpne svar
+    - Den viktigste tingen ved "semi-strukturert" egentlig
+  - Generelt sett veldig god kildepraksis
+- Hva var manglende?
+  - Akademisk skrivestil kunne vært bedre i mange tilfeller
+  - Jeg er ikke helt på den harde objektivist linja
+  - Det ligger også litt i oppgaven at det skal være litt subjektivt
+  - Spørsmål og forskningstema sin sammenheng
+  - Et par ice-breakers har landet på merkelige ender av skalaen 
+
+## Ting å reflektere over 
+
+- Hvis vi tenker på dette som et faktisk forskningsopplegg
+
+## Operasjonalisering
+
+- Husk at dette er et pilotintervju
+- Formulere spørsmål som dekker de teoretiske konseptene vi er ute etter
+- Hva betyr politisk interesse?
+- Hva betyr politisk deltakelse?
+- Kategoriene av svar vi er ute etter, er nok et formål med selve pilotintervjuet
+- "Deltar du i aktiviteter eller organisasjoner som prøver å påvirke politiske utfall, i så fall hvilke?"
+
+## Sjekkliste for spørsmål
+
+- Dekkende for problemstillingen?
+- Presise nok for formålet?
+- Hva er mulige svar?
+
+## Struktur
+
+- Mange har hatt veldig godt strukturerte guider og rapporter
+- Forskjellige løsninger, men jeg ville holdt forklaring og refleksjon separat
+  - Nærmere slik en artikkel ville vært strukturert
+
+## Formuleringer
+
+- Hvordan kan man sikre seg at IO svarer utfyllende?
+- Stille åpne spørsmål, gjør det umulig å svare med et enkelt ja/nei
+- Demonstrer interesse for et utdypende svar
+- Ting mange har vært inne på også
+  - Nøytrale formuleringer
+  - Balanserte
+  - *Entydige*
+  - Lett forståelige
+
+## Avslutningsvis
+
+- Har dere fortsatt noen spørsmål igjen rundt denne oppgaven?
+
+## Kodeøvelse
+
+- Vi skal nå gå litt gjennom kodeøvelsen som var til i dag
+- Informasjon ligger ute på canvas, med både guide og spørsmål vedliggende
+- Vi jobber i par, dere skal sammen snakke om hvordan dere har kodet/hvordan dere ville kodet dette
+- I mellomtiden skal jeg prøve å bruke min maskinlæringsmodell på samme spørsmål
+
+## Til neste gang
+
+- Det er fritt å møte opp neste gang
+- Anbefaler de fleste å møte opp
+- Hvis dere har noen kollisjoner (kanskje med en OPA eksamen)
+  - Dere kan møte i en av mine andre seminarer
+  - Eller noen av de andre sine seminarer, men spør dem i forkant

@@ -145,6 +145,14 @@ knitr::opts_chunk$set(echo = TRUE)
 7. Intervju som datainnsamlingsmetode
 8. Deltakende observasjon
 
+## Hvordan bruke disse til eksamen?
+
+- Gå gjennom oppgavene på nytt igjen under eksamenslesning
+- Trenger ikke gjøre dem
+  - Ville dere gjort noe annerledes?
+  - Ser dere hva som var bra/dårlig med forsøket
+- Gjerne som en "oppsummering" rundt en tematikk
+
 ## Avslutningsvis om oppgavene
 
 - Er det noe rundt oppgavene dere fortsatt lurer på, eller føler dere ikke har fått mulighet til å si noe om?
