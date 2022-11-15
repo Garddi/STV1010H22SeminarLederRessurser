@@ -27,6 +27,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Nå som alle har gått gjennom den lengre kvalifiseringsoppgaven
 
+- To og to: presenter intervjuguiden til hverandre
+  - Forklar hvorfor dere gjorde det slik
+  - Spør spørsmål hvis dere lurer på noe
+
 ## Erfaringer
 
 - Hva var den vanskeligste delen av prosessen?
