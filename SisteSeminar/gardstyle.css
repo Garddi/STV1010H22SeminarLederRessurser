@@ -1,0 +1,82 @@
+.reveal {
+  font-size: 26pt;
+  color: white;
+}
+
+.reveal .slide {
+  font-family: 'Latin Modern Roman 10', 'Times New Roman', sans-serif;
+}
+
+.reveal h1{
+  color: DarkCyan;
+  font-family: 'Latin Modern Roman 10';
+}
+
+.reveal h2{
+  font-weight: 300;
+  color: #00AAC4;
+  font-family: 'Latin Modern Roman 10';
+  text-decoration: none;
+}
+
+.reveal h3{
+  color: Cyan;
+}
+
+.reveal section img { 
+  background:none; 
+  border:none; 
+  box-shadow:none; 
+  }
+
+body{
+  background: radial-gradient(circle at 100%, #333, #333 50%, rgb(0, 0, 0) 75%, #333 75%);;
+  color: #F0F0F0;
+  font-family: "Times New Roman";
+}
+
+ol{
+  font-style: normal;
+}
+
+a:link,
+a:visited{
+  color: cyan;
+}
+
+.white-titles { 
+  color: white; 
+} 
+
+.table{
+  border-collapse: collapse;
+}
+
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+
+.small-code pre code {
+  font-size: 1em;
+  color: #F0F0F0;
+}
+
+pre {
+  max-height: 600px;
+  max-width: 1200px;
+  overflow-y: auto;
+  overflow-x: auto;
+  color: #F0F0F0;
+}
+
+body:after {
+  content: url(UiOsmall.PNG);
+  position: fixed;
+  bottom: 3.5em;
+  left: 3.5em;
+  box-shadow: 5px 5px 10px #000;}
+
+h2.author {
+  text-decoration: none;
+}

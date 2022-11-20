@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Gard Olav Dietrichson" />
+  <title>Eksamenstips og forberedelser</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="SisteSeminar_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    background-color: #232629;
+    color: #7a7c7d;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #7a7c7d;  padding-left: 4px; }
+div.sourceCode
+  { color: #cfcfc2; background-color: #232629; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span { color: #cfcfc2; } /* Normal */
+code span.al { color: #95da4c; background-color: #4d1f24; font-weight: bold; } /* Alert */
+code span.an { color: #3f8058; } /* Annotation */
+code span.at { color: #2980b9; } /* Attribute */
+code span.bn { color: #f67400; } /* BaseN */
+code span.bu { color: #7f8c8d; } /* BuiltIn */
+code span.cf { color: #fdbc4b; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #3daee9; } /* Char */
+code span.cn { color: #27aeae; font-weight: bold; } /* Constant */
+code span.co { color: #7a7c7d; } /* Comment */
+code span.cv { color: #7f8c8d; } /* CommentVar */
+code span.do { color: #a43340; } /* Documentation */
+code span.dt { color: #2980b9; } /* DataType */
+code span.dv { color: #f67400; } /* DecVal */
+code span.er { color: #da4453; text-decoration: underline; } /* Error */
+code span.ex { color: #0099ff; font-weight: bold; } /* Extension */
+code span.fl { color: #f67400; } /* Float */
+code span.fu { color: #8e44ad; } /* Function */
+code span.im { color: #27ae60; } /* Import */
+code span.in { color: #c45b00; } /* Information */
+code span.kw { color: #cfcfc2; font-weight: bold; } /* Keyword */
+code span.op { color: #cfcfc2; } /* Operator */
+code span.ot { color: #27ae60; } /* Other */
+code span.pp { color: #27ae60; } /* Preprocessor */
+code span.re { color: #2980b9; background-color: #153042; } /* RegionMarker */
+code span.sc { color: #3daee9; } /* SpecialChar */
+code span.ss { color: #da4453; } /* SpecialString */
+code span.st { color: #f44f4f; } /* String */
+code span.va { color: #27aeae; } /* Variable */
+code span.vs { color: #da4453; } /* VerbatimString */
+code span.wa { color: #da4453; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="SisteSeminar_files/reveal.js-3.3.0.1/css/theme/simple.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="gardstyle.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <script src="SisteSeminar_files/header-attrs-2.16/header-attrs.js"></script>
+    <link href="SisteSeminar_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link href="SisteSeminar_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Eksamenstips og forberedelser</h1>
+    <h2 class="author">Gard Olav Dietrichson</h2>
+    <h3 class="date">20-11-2022</h3>
+</section>
+
+<section id="velkommen-til-siste-gang" class="title-slide slide level1">
+<h1>Velkommen til siste gang :(</h1>
+<ul>
+<li>Fokuset i dag ligger på (forhåpentligvis) nyttige tips</li>
+</ul>
+<p>[[NOE RELEVANT BILDE HER]]</p>
+</section>
+
+<section>
+<section id="plan-for-i-dag" class="title-slide slide level1">
+<h1>Plan for i dag</h1>
+<ul>
+<li>Bekymringer, forventninger, store spørsmål</li>
+<li>Vurderinger i STV, hva er de?</li>
+<li>Forberede seg til eksamen
+<ul>
+<li>Polya, Heuristisk problemløsning</li>
+<li>Learning devices</li>
+</ul></li>
+<li>Gjennomføre en eksamen
+<ul>
+<li>Med eksempler fra mine egne STV1xxx eksamener</li>
+</ul></li>
+</ul>
+</section>
+<section id="enda-mer-plan-for-i-dag" class="slide level2">
+<h2>Enda mer plan for i dag</h2>
+<ul>
+<li>Akademisk skriving</li>
+<li>Semesteroppgaver</li>
+<li>Oppsummering av seminaraktiviteter</li>
+<li>Tårevått farvel (for nå)</li>
+</ul>
+</section></section>
+<section id="bekymringer-forventninger-store-spørsmål"
+class="title-slide slide level1">
+<h1>Bekymringer, forventninger, store spørsmål</h1>
+<p>[[BILDE AV NOEN BEKYMRET]]</p>
+</section>
+
+<section>
+<section id="vurderinger-i-stv" class="title-slide slide level1">
+<h1>Vurderinger i STV</h1>
+<ul>
+<li>Universitetsvurderinger er veldig varierende</li>
+<li>På SV-fakultetet er det fokus på sluttvurderinger</li>
+<li>To former, Eksamen og semesteroppgave</li>
+</ul>
+</section>
+<section id="eksamen" class="slide level2">
+<h2>Eksamen</h2>
+<ul>
+<li>4 timer vanligvis på ISV, SOS har ofte 6 timers</li>
+<li>Som regel bestående av en kortsvarsdel og en langsvarsdel</li>
+<li>Kortsvar tester bredde, langsvar tester evne og dybde</li>
+<li>Finnes også muntlige eksamen, men sjeldent</li>
+<li>Fleste eksamener lar deg velge mellom oppgaver
+<ul>
+<li>Men ikke Raino</li>
+</ul></li>
+</ul>
+</section>
+<section id="hjemmeeksamen" class="slide level2">
+<h2>Hjemmeeksamen</h2>
+<ul>
+<li>Går over flere dager</li>
+<li>Gjerne mer anvendt fokus</li>
+<li>Tilgang på pensum er ikke alltid så nyttig som man tror</li>
+<li>Krever kildeføring</li>
+</ul>
+</section>
+<section id="semesteroppgave" class="slide level2">
+<h2>Semesteroppgave</h2>
+<ul>
+<li>Lengre tekst som skal arbeides med over tid
+<ul>
+<li>Formelt sett, mer enn 10 dager</li>
+</ul></li>
+<li>Som regel en kontinuerlig prosess</li>
+</ul>
+</section>
+<section id="uansett-form" class="slide level2">
+<h2>Uansett form</h2>
+<p>Planlegg tid til å se over!!!!!!!!</p>
+</section></section>
+<section>
+<section id="forberede-seg-til-eksamen"
+class="title-slide slide level1">
+<h1>Forberede seg til eksamen</h1>
+<p><img data-src="presImg/syllabusmeme.png" alt="er dere klare?" /></p>
+</section>
+<section id="første-skritt-planlegg" class="slide level2">
+<h2>Første skritt: Planlegg</h2>
+<ul>
+<li>Finn et godt startpunkt
+<ul>
+<li>Minst 2 uker før eksamen</li>
+</ul></li>
+<li>Del opp pensum, gjerne etter forelesninger</li>
+<li>Leg en plan for når du skal lese hva</li>
+</ul>
+</section>
+<section id="prioriteringer" class="slide level2">
+<h2>Prioriteringer</h2>
+<ul>
+<li>Ofte har man ikke tid/kapasitet til å lese alt</li>
+<li>Prøv å finne ut av hva det viktigste i emnet er</li>
+<li>Prioriter ting som dekker de tingene</li>
+</ul>
+</section>
+<section id="selve-lesing" class="slide level2">
+<h2>Selve lesing</h2>
+<ul>
+<li>Notater, notater, notater</li>
+<li>100 sider om dagen burde være et mål</li>
+<li>Bruk tekstens stil til alt den er verdt
+<ul>
+<li>Hvis forfatter skriver noe i kursiv, sikkert viktig</li>
+<li>Bruk fremmedord også som knagger til å henge noe mer kunnskap
+på</li>
+<li>Var dette ordet ukjent for meg når jeg startet?</li>
+</ul></li>
+<li>Fleste tilfeller: Bøker &gt;&gt;&gt; Artikler</li>
+</ul>
+</section>
+<section id="rundt-lesing" class="slide level2">
+<h2>Rundt lesing</h2>
+<ul>
+<li>Les sammen med andre
+<ul>
+<li><em>1984</em></li>
+</ul></li>
+<li>Strukturer lesesesjonen
+<ul>
+<li>45 min lesing, 15 min pause, eks.</li>
+<li>Bruk pausen til å diskutere det du gikk leste</li>
+</ul></li>
+</ul>
+</section>
+<section id="rundt-lesing-1" class="slide level2">
+<h2>Rundt lesing</h2>
+<ul>
+<li>Kollokvieaktiviteter er nyttige</li>
+<li>Hjelper å få satt ord på ting du lurer på</li>
+<li>Det å konkretisere det er også hjelpsomt</li>
+</ul>
+</section>
+<section id="kollokvier-er-gøy" class="slide level2">
+<h2>Kollokvier er gøy</h2>
+<p><img src="presImg/kollokvie1.jpg" width="90%" /></p>
+</section>
+<section id="kollokvier-er-gøy-1" class="slide level2">
+<h2>Kollokvier er gøy</h2>
+<p><img src="presImg/kollokvie2.jpg" width="90%" /></p>
+</section>
+<section id="kollokvier-er-gøy-2" class="slide level2">
+<h2>Kollokvier er gøy</h2>
+<p><img src="presImg/kollokvie3.jpg" width="90%" /></p>
+</section>
+<section id="kollokvier-er-gøy-3" class="slide level2">
+<h2>Kollokvier er gøy</h2>
+<p><img src="presImg/kollokvie4.jpg" width="45%" /></p>
+</section>
+<section id="kollokvier-er-gøy-4" class="slide level2">
+<h2>Kollokvier er gøy</h2>
+<ul>
+<li>Ha minst et møte før eksamen</li>
+<li>Summer opp hovedpunkter fra alle forelesninger</li>
+</ul>
+</section>
+<section id="mot-slutten" class="slide level2">
+<h2>Mot slutten</h2>
+<ul>
+<li>Sett av en dag eller to til helhetlig oversikt</li>
+</ul>
+</section></section>
+<section>
+<section id="gjennomføre-en-skoleeksamen"
+class="title-slide slide level1">
+<h1>Gjennomføre en skoleeksamen</h1>
+<ul>
+<li>Vi kan ta det fra starten</li>
+</ul>
+</section>
+<section id="dagen-før" class="slide level2">
+<h2>Dagen før</h2>
+<ul>
+<li>Ikke sitt for lenge dagen før</li>
+<li>God søvn er det nyttigste du kan gjøre dagen før</li>
+<li>Tøm hodet for bekymringer</li>
+<li>Mer New-Age saker, i dunno, mediter litt</li>
+</ul>
+</section>
+<section id="selve-dagen" class="slide level2">
+<h2>Selve dagen</h2>
+<ul>
+<li>Pakk en god lunsj, litt snacks, noe å drikke</li>
+<li>Eksamene holdes i Silurveien 2
+<ul>
+<li>Planlegg godt med tid</li>
+</ul></li>
+<li>Merk hvilken sal du skal være i
+<ul>
+<li>Forskjellige innganger</li>
+</ul></li>
+</ul>
+</section>
+<section id="hvor-er-dette" class="slide level2">
+<h2>Hvor er dette?</h2>
+<ul>
+<li><a href="https://www.uio.no/om/finn-fram/omrader/andre/silurveien/"
+class="uri">https://www.uio.no/om/finn-fram/omrader/andre/silurveien/</a></li>
+</ul>
+<p><img src="presImg/silurveienveien.png" width="536" /></p>
+</section>
+<section id="selve-dagen-1" class="slide level2">
+<h2>Selve dagen</h2>
+<ul>
+<li>T-banen, linje 3, til Åsjordet</li>
+<li>Er en liten event i seg selv nesten</li>
+<li>Litt ventetid utenfor og innenfor når dere kommer dit</li>
+<li>Husk ID!</li>
+</ul>
+</section>
+<section id="rett-før-eksamen" class="slide level2">
+<h2>Rett før eksamen</h2>
+<ul>
+<li>Hold deg rolig, ingenting mer du kan lære nå</li>
+<li>forbered sakene dine, lunsjen og alt</li>
+<li>Husk å ta frem litt skrivesaker</li>
+</ul>
+</section>
+<section id="eksamen-selv" class="slide level2">
+<h2>Eksamen selv!</h2>
+<ul>
+<li>Start med å lese gjennom alle oppgaver
+<ul>
+<li>(Ikke relevant i STV1010 riktignok)</li>
+</ul></li>
+<li>Noter ned nøkkelord til alle oppgavene</li>
+<li>De oppgavene du husker minst av ord til velger du bort
+<ul>
+<li>Eksempel fra egen eksamen</li>
+</ul></li>
+<li>Strukturer oppgaven</li>
+<li>Sentrer rundt nøkkelordene</li>
+</ul>
+</section>
+<section id="eksamen-selv-1" class="slide level2">
+<h2>Eksamen selv!</h2>
+<ul>
+<li>Husk at struktur er fortsatt viktig
+<ul>
+<li>Særlig for deg selv</li>
+</ul></li>
+<li>Gi deg tid til å se over</li>
+</ul>
+</section>
+<section id="eksamen-selv-1010-vers" class="slide level2">
+<h2>Eksamen selv (1010 vers)</h2>
+<ul>
+<li>Multiple choice blir litt annerledes</li>
+<li>100 spørsmål</li>
+<li>Prøv å svare på spørsmålene uten å lese alternativene</li>
+<li>Eliminer det du vet det ikke er</li>
+<li>To timer beregnet, 20 min til å se over</li>
+</ul>
+</section></section>
+<section>
+<section id="akademisk-skriving" class="title-slide slide level1">
+<h1>Akademisk Skriving</h1>
+<p>La oss snakke litt om hvordan man kan sikre at språket er godt når
+man leverer eksamen eller semesteroppgaver</p>
+</section>
+<section id="akademisk-skriving-1" class="slide level2">
+<h2>Akademisk Skriving</h2>
+<ul>
+<li>Vokabular</li>
+<li>Struktur</li>
+<li>Klarhet</li>
+<li>Formalitet</li>
+</ul>
+</section>
+<section id="vokabular" class="slide level2">
+<h2>Vokabular</h2>
+<ul>
+<li>Bruk det dere har lært aktivt</li>
+<li>Vis at dere kan det</li>
+<li>Sentrer oppgavebesvarelsen rundt fagbegrepene <br> <br></li>
+</ul>
+</section>
+<section id="struktur" class="slide level2">
+<h2>Struktur</h2>
+<ul>
+<li>Ha tydelige seksjoner</li>
+<li>Et avsnitt skal ha egen struktur</li>
+<li>Introduksjon hjelper både deg og leser</li>
+<li>Samme med en oppsummering</li>
+</ul>
+</section>
+<section id="klarhet" class="slide level2">
+<h2>Klarhet</h2>
+<ul>
+<li>Bruk et tydelig språk</li>
+<li>Vær litt bastant/selvsikker på formuleringene dine</li>
+</ul>
+</section>
+<section id="formalitet" class="slide level2">
+<h2>Formalitet</h2>
+<ul>
+<li>Bruk et formelt språk</li>
+<li>Burde ikke være vanskelig</li>
+<li>Siter, om ikke formelt <em>riktig</em></li>
+</ul>
+</section></section>
+<section id="semesteroppgaver" class="title-slide slide level1">
+<h1>Semesteroppgaver</h1>
+
+</section>
+
+<section>
+<section id="oppsummering-av-seminaraktiviteter"
+class="title-slide slide level1">
+<h1>Oppsummering av seminaraktiviteter</h1>
+<ul>
+<li>På begynnelsen av semesteret ba jeg dere si noe om forventninger til
+meg <br> <br></li>
+<li>Gruppe 12
+<ul>
+<li>Lett forståelig, språklig</li>
+<li>Rom for spørsmål</li>
+<li>Fokusere på det mest relevante</li>
+<li>Tydeliggjøre innholdet</li>
+<li>Lav terskel for spørsmål</li>
+<li>Progresjonsorientering</li>
+</ul></li>
+</ul>
+</section>
+<section id="oppsummering-forts" class="slide level2">
+<h2>Oppsummering forts</h2>
+<ul>
+<li>Gruppe 6
+<ul>
+<li>Tilgjengelighet</li>
+<li>Gøye seminarer</li>
+<li>Gi oppmerksomhet til det som merkes vanskelig</li>
+</ul></li>
+<li>Gruppe 8
+<ul>
+<li>Interaktive seminarer</li>
+<li>Lav terskel for spørsmål</li>
+<li>Fokus på det viktige, forenkle, simplifisere</li>
+<li>Tydelige beskjeder om forventninger</li>
+</ul></li>
+</ul>
+</section>
+<section id="oppsummering-forts-1" class="slide level2">
+<h2>Oppsummering forts</h2>
+<ul>
+<li>Gruppe 14
+<ul>
+<li>Tett oppfølgning</li>
+<li>Tips til hvordan forstå stoffet</li>
+<li>Være forberedt</li>
+</ul></li>
+<li>Gruppe 10
+<ul>
+<li>Klarer å se pensum slik de gjør</li>
+<li>Setter av tid til spørsmål i timen</li>
+<li>Tilgjengelighet</li>
+<li>Ta tak i feil tidlig</li>
+</ul></li>
+</ul>
+</section>
+<section id="oppsummering-forts-2" class="slide level2">
+<h2>Oppsummering forts</h2>
+<ul>
+<li>Gruppe 10 forts.
+<ul>
+<li>Ta opp uoppforedret vanlige fallgruver</li>
+<li>Møte forberedt</li>
+<li>Klargjør innholdet i forelesning</li>
+</ul></li>
+<li>Gruppe 11
+<ul>
+<li>Tid til spørsmål</li>
+<li>Rom for variasjon i forberedelse</li>
+<li>Tydelig kommunikasjon</li>
+<li>Klare forventninger</li>
+<li>Tilrettelegg diskusjoner og faglig utveksling</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="til-neste-gang" class="title-slide slide level1">
+<h1>Til Neste Gang</h1>
+<ul>
+<li>Det er ingen neste gang :(</li>
+<li>Med mindre vi ses i STV1020</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>obj <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Da &quot;</span>, <span class="st">&quot;Kan &quot;</span>, <span class="st">&quot;Vi &quot;</span>, <span class="st">&quot;Ha &quot;</span>, <span class="st">&quot;Det &quot;</span>, <span class="st">&quot;Gøy &quot;</span>, <span class="st">&quot;i &quot;</span>, <span class="st">&quot;R!&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>obj2 <span class="ot">&lt;-</span> <span class="fu">paste</span>(obj, <span class="at">collapse =</span> <span class="st">&quot;&quot;</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(obj2)</span></code></pre></div>
+<pre><code>## [1] &quot;Da Kan Vi Ha Det Gøy i R!&quot;</code></pre>
+</section>
+<section id="uansett" class="slide level2">
+<h2>Uansett</h2>
+<ul>
+<li>Takk for følget</li>
+<li>Håper dere er fornøyde</li>
+<li>Lykke til på eksamen!!</li>
+</ul>
+</section></section>
+    </div>
+  </div>
+
+  <script src="SisteSeminar_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="SisteSeminar_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Transition style
+        transition: 'zoom', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+
+
+        chalkboard: {
+        },
+
+        keyboard: {
+          67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
+          66: function() { RevealChalkboard.toggleChalkboard() }, // toggle chalkboard when 'b' is pressed
+          46: function() { RevealChalkboard.clear() },    // clear chalkboard when 'DEL' is pressed
+           8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
+          68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
+        },
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'SisteSeminar_files/reveal.js-3.3.0.1/plugin/notes/notes.js', async: true },
+          { src: 'SisteSeminar_files/reveal.js-3.3.0.1/plugin/chalkboard/chalkboard.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
